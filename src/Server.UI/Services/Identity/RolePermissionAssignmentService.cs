@@ -1,13 +1,13 @@
 ﻿using System.Security.Claims;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.ExceptionHandlers;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Security;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.ExceptionHandlers;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Security;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 using Microsoft.AspNetCore.Identity;
 using ZiggyCreatures.Caching.Fusion;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Services.Identity;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Services.Identity;
 
 /// <inheritdoc />
 public class RolePermissionAssignmentService : IPermissionAssignmentService

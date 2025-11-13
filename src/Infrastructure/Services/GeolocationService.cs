@@ -4,7 +4,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services;
 
 /// <summary>
 /// Service for retrieving geolocation information using the ipapi.co API.

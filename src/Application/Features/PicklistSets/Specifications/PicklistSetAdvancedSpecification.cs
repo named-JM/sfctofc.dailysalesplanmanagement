@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Specifications;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Specifications;
 #nullable disable warnings
 public class PicklistSetAdvancedSpecification : Specification<PicklistSet>
 {

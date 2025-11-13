@@ -1,5 +1,5 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Common.ExceptionHandlers;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Models;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Common.ExceptionHandlers;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Models;
 using EntityFramework.Exceptions.Common;
 using MediatR;
 using MediatR.Pipeline;
@@ -13,7 +13,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.UnitTests.Common.ExceptionHandlers;
+namespace SFCTOFC.DailySalesPlanManagement.Application.UnitTests.Common.ExceptionHandlers;
 
 /// <summary>
 /// Unit tests for the DbExceptionHandler class.

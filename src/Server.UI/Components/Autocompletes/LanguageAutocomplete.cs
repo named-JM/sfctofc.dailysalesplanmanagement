@@ -1,6 +1,6 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Common.Constants.Localization;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Common.Constants.Localization;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Components.Autocompletes;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Components.Autocompletes;
 
 public class LanguageAutocomplete<T> : MudAutocomplete<string>
 {

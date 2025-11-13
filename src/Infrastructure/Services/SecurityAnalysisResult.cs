@@ -1,9 +1,9 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementDomain.Enums;
+using SFCTOFC.DailySalesPlanManagement.Domain.Enums;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services;
 
 /// <summary>
 /// Represents the result of a security risk analysis

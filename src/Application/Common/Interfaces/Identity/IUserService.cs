@@ -1,6 +1,6 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Features.Identity.DTOs;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Features.Identity.DTOs;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity;
 
 public interface IUserService
 {

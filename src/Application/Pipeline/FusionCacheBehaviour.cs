@@ -3,7 +3,7 @@
 
 using ZiggyCreatures.Caching.Fusion;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Pipeline;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Pipeline;
 
 public class FusionCacheBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     where TRequest : ICacheableRequest<TResponse>

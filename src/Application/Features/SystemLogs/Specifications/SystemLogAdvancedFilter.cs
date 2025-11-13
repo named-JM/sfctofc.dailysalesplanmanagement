@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Features.SystemLogs.Specifications;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Features.SystemLogs.Specifications;
 
 public enum SystemLogListView
 {

@@ -1,5 +1,5 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Common.ExceptionHandlers;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Models;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Common.ExceptionHandlers;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Models;
 using MediatR;
 using MediatR.Pipeline;
 using Microsoft.Extensions.DependencyInjection;
@@ -10,7 +10,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.UnitTests.Common.ExceptionHandlers;
+namespace SFCTOFC.DailySalesPlanManagement.Application.UnitTests.Common.ExceptionHandlers;
 
 /// <summary>
 /// Tests to verify exception handler priority and selection logic

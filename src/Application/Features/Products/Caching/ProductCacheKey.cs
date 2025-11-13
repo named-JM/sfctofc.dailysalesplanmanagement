@@ -1,5 +1,5 @@
 ﻿
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Caching;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Caching;
 
 public static class ProductCacheKey
 {

@@ -5,7 +5,7 @@ using System.Collections.Concurrent;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.SignalR;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Hubs;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Hubs;
 
 [Authorize(AuthenticationSchemes = "Identity.Application")]
 public class ServerHub : Hub<ISignalRHub>

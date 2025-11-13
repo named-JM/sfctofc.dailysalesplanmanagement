@@ -3,7 +3,7 @@
 
 using FluentEmail.Core.Models;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
 
 public interface IMailService
 {

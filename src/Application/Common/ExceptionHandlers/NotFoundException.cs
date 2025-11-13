@@ -3,7 +3,7 @@
 
 using System.Net;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.ExceptionHandlers;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.ExceptionHandlers;
 
 public class NotFoundException : Exception
 {

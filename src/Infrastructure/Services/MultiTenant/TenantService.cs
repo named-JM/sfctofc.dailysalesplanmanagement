@@ -1,10 +1,10 @@
 ﻿
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.MultiTenant;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.MultiTenant;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.DTOs;
 using ZiggyCreatures.Caching.Fusion;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services.MultiTenant;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services.MultiTenant;
 
 public class TenantService : ITenantService
 {

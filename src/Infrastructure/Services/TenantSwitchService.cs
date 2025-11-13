@@ -1,11 +1,11 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Common.Constants.ClaimTypes;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Security;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.DTOs;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.Caching;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Common.Constants.ClaimTypes;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Security;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.Caching;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 using ZiggyCreatures.Caching.Fusion;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services;
 
 /// <summary>
 /// Service for managing tenant switching functionality

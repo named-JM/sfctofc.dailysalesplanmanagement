@@ -1,7 +1,7 @@
 ﻿@layout MainLayout
 @inherits LayoutComponentBase
-@using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity
-@using SFCTOFC.DailySalesPlanManagementApplication.Common.Extensions
+@using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity
+@using SFCTOFC.DailySalesPlanManagement.Application.Common.Extensions
 @inject IUserProfileState UserProfileState
 @inject LayoutService LayoutService
 @implements IDisposable
@@ -21,7 +21,7 @@
     .mud-appbar {
         min-height: 45px !important;
         height: 45px !important;
-        background-color: black !important;
+        background-color: #026201 !important;
     }
 
     /* 🔹 Reduces internal toolbar padding */
@@ -49,7 +49,7 @@
         </NotAuthorized>
         <Authorized>
             <!-- 🔹 AppBar -->
-            <MudAppBar Elevation="1" Style="background-color: black; height:700px; min-height:60px;" 
+            <MudAppBar Elevation="0" Style="height:700px; min-height:60px;" 
             Fixed="true" ClipMode="ClipMode.Always">
                 <HeaderMenu NavigationMenuDrawerOpen="_navigationMenuDrawerOpen"
                             OpenSearchDialog="OpenSearchDialog"

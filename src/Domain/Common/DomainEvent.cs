@@ -3,7 +3,7 @@
 
 using MediatR;
 
-namespace SFCTOFC.DailySalesPlanManagementDomain.Common;
+namespace SFCTOFC.DailySalesPlanManagement.Domain.Common;
 
 public abstract class DomainEvent : INotification
 {

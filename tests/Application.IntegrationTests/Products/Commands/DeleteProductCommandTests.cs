@@ -1,14 +1,14 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.ExceptionHandlers;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Commands.AddEdit;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Commands.Delete;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Queries.GetAll;
-using SFCTOFC.DailySalesPlanManagementDomain.Entities;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.ExceptionHandlers;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Commands.AddEdit;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Commands.Delete;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Queries.GetAll;
+using SFCTOFC.DailySalesPlanManagement.Domain.Entities;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.IntegrationTests.Products.Commands;
+namespace SFCTOFC.DailySalesPlanManagement.Application.IntegrationTests.Products.Commands;
 
 using static Testing;
 

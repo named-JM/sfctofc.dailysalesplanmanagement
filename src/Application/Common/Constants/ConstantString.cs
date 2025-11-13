@@ -1,12 +1,12 @@
 ﻿using System.Globalization;
 using System.Resources;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Constants;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Constants;
 
 public static class ConstantString
 {
     public const string CONSTANTSTRINGRESOURCEID =
-        "SFCTOFC.DailySalesPlanManagementApplication.Resources.Constants.ConstantString";
+        "SFCTOFC.DailySalesPlanManagement.Application.Resources.Constants.ConstantString";
 
     private static readonly ResourceManager rm;
 

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Queries.Pagination;
-using SFCTOFC.DailySalesPlanManagementDomain.Entities;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Queries.Pagination;
+using SFCTOFC.DailySalesPlanManagement.Domain.Entities;
 using NUnit.Framework;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.IntegrationTests.Products.Queries;
+namespace SFCTOFC.DailySalesPlanManagement.Application.IntegrationTests.Products.Queries;
 
 using static Testing;
 

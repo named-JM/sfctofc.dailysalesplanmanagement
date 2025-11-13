@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using System.Threading.Channels;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.PublishStrategies;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.PublishStrategies;
 
 /// <summary>
 /// High-performance publisher using Channel with backpressure control

@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
-        <RootNamespace>SFCTOFC.DailySalesPlanManagementServer.UI</RootNamespace>
-        <AssemblyName>SFCTOFC.DailySalesPlanManagementServer.UI</AssemblyName>
+        <RootNamespace>SFCTOFC.DailySalesPlanManagement.Server.UI</RootNamespace>
+        <AssemblyName>SFCTOFC.DailySalesPlanManagement.Server.UI</AssemblyName>
         <TargetFramework>net9.0</TargetFramework>
         <Nullable>enable</Nullable>
         <NoWarn>$(NoWarn);VSTHRD200</NoWarn>

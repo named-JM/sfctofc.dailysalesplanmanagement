@@ -1,5 +1,7 @@
 ﻿
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.DSPM.DTOs;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.DSPM.DTOs;
+
+#region OUTLETS
 public class OutletDto
 {
     public int Id { get; set; }
@@ -25,3 +27,27 @@ public class OutletDto
         }
     }
 }
+#endregion
+
+#region SALESMANTRACKER
+public class SalesmanTrackerDto
+{
+    public int Id { get; set; }
+    public string? AspNetUserId { get; set; }
+    public string? Name { get; set; }
+    public DateTime? Date { get; set; }
+    public decimal? ActualSales { get; set; }
+    public decimal? TargetSales { get; set; }
+    public int? ActualStoreVisited { get; set; }
+    public int? TargetStoreVisited { get; set; }
+
+    private class Mapping : Profile
+    {
+        public Mapping()
+        {
+            CreateMap<SalesmanTracker, SalesmanTrackerDto>().ReverseMap();
+            CreateMap<SalesmanTrackerDto, SalesmanTracker>(MemberList.None);
+        }
+    }
+}
+#endregion

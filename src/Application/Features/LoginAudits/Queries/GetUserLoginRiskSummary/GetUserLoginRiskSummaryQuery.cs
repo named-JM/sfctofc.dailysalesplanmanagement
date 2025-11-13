@@ -1,10 +1,10 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.LoginAudits.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.LoginAudits.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.LoginAudits.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.LoginAudits.DTOs;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.LoginAudits.Queries.GetUserLoginRiskSummary;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.LoginAudits.Queries.GetUserLoginRiskSummary;
 
 public class GetUserLoginRiskSummaryQuery : ICacheableRequest<UserLoginRiskSummaryDto?>
 {

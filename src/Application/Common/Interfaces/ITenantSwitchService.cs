@@ -1,7 +1,7 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Common.Models;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.DTOs;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Common.Models;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.DTOs;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
 
 /// <summary>
 /// Service for managing tenant switching functionality

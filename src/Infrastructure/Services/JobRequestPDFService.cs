@@ -9,7 +9,7 @@ using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
 using Document = QuestPDF.Fluent.Document;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services
 {
     public class JobRequestPDFService : IPDFCustom
     {

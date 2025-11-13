@@ -1,15 +1,15 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Common.Security;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Common.Security;
 using System.ComponentModel;
 using System.Reflection;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Constants.ClaimTypes;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Constants.ClaimTypes;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
 using ZiggyCreatures.Caching.Fusion;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.ExceptionHandlers;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.ExceptionHandlers;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Services;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Services;
 
 /// <summary>
 /// Helper class for managing permissions.

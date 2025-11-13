@@ -1,8 +1,8 @@
 ﻿global using System.Data;
-global using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
-global using SFCTOFC.DailySalesPlanManagementApplication.Common.Models;
-global using SFCTOFC.DailySalesPlanManagementApplication.Common.Extensions;
-global using SFCTOFC.DailySalesPlanManagementDomain.Entities;
+global using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
+global using SFCTOFC.DailySalesPlanManagement.Application.Common.Models;
+global using SFCTOFC.DailySalesPlanManagement.Application.Common.Extensions;
+global using SFCTOFC.DailySalesPlanManagement.Domain.Entities;
 global using FluentValidation;
 global using Microsoft.AspNetCore.Components;
 global using MudBlazor;

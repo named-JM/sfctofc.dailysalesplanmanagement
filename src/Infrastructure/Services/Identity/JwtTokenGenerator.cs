@@ -3,9 +3,9 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services.Identity;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services.Identity;
 public static class JwtTokenGenerator
 {
     public static string Generate(ApplicationUser user, IConfiguration configuration)

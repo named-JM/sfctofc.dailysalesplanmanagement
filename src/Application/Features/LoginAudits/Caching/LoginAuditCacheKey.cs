@@ -2,7 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.LoginAudits.Caching;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.LoginAudits.Caching;
 
 public static class LoginAuditCacheKey
 {

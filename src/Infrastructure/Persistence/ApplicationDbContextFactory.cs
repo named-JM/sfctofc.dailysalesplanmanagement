@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Persistence;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Persistence;
 internal sealed class ApplicationDbContextFactory(IDbContextFactory<ApplicationDbContext> efFactory) : IApplicationDbContextFactory
 {
     public ValueTask<IApplicationDbContext> CreateAsync(CancellationToken ct = default)

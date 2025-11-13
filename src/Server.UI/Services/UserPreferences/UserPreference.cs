@@ -5,7 +5,7 @@
 using System.Drawing;
 using Color = System.Drawing.Color;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Services.UserPreferences;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Services.UserPreferences;
 
 
 

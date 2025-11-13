@@ -9,7 +9,7 @@
 
 
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Security;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Security;
 
 public static partial class Permissions
 {

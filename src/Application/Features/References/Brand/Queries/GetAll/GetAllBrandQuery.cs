@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.References.REFBrand.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.References.REFBrand.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.References.REFBrand.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.References.REFBrand.DTOs;
 
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.References.REFBrand.Queries.GetAll;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.References.REFBrand.Queries.GetAll;
 public class GetAllBrandQuery : ICacheableRequest<IEnumerable<BrandDto>>
 {
     public string CacheKey => BrandCacheKey.GetAllCacheKey;

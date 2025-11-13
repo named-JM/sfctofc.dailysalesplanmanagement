@@ -60,4 +60,4 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 
-ENTRYPOINT ["dotnet", "SFCTOFC.DailySalesPlanManagementServer.UI.dll"]
+ENTRYPOINT ["dotnet", "SFCTOFC.DailySalesPlanManagement.Server.UI.dll"]

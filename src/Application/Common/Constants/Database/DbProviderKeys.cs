@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Constants.Database;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Constants.Database;
 
 public class DbProviderKeys
 {

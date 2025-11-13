@@ -1,21 +1,211 @@
 ﻿@page "/"
-@using SFCTOFC.DailySalesPlanManagementServer.UI.Pages.Dashboard.Components
-@using SFCTOFC.DailySalesPlanManagementApplication.Common.Security
-@using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.DTOs
-@using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces
+
+@using SFCTOFC.DailySalesPlanManagement.Server.UI.Pages.Dashboard.Components
+@using SFCTOFC.DailySalesPlanManagement.Application.Common.Security
+@using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.DTOs
+@using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces
 @using MudBlazor.Utilities
+
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.DSPM.DTOs;
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.DSPM.Queries.Pagination;
 
 @inject IStringLocalizer<Dashboard> L
 @inject IUserProfileState UserProfileState
 @inject ITenantSwitchService TenantSwitchService
 
-<PageTitle>@Title</PageTitle>
+<style>
+    @@import url("https://cdn.jsdelivr.net/npm/@@fancyapps/ui@@5.0.36/dist/fancybox/fancybox.css");
+
+    .fancybox__container {
+        --fancybox-bg: rgba(24, 24, 27, 0.85);
+        z-index: 9999;
+    }
+
+    html, body {
+        -moz-osx-font-smoothing: grayscale; /* Firefox on macOS */
+        -webkit-font-smoothing: antialiased; /* Chrome, Edge, Safari */
+        text-rendering: optimizeLegibility;
+    }
+
+    body {
+        font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+        font-size: 12px;
+    }
+
+    .mud-menu .mud-icon-button {
+        border-radius: 0 !important;
+    }
+
+    .search .mud-input {
+        line-height: 1px !important;
+    }
+
+    .small-input .mud-input-slot {
+        min-height: 28px !important;
+        font-size: 0.8rem !important;
+    }
+
+    .small-input input {
+        padding: 2px 6px !important;
+    }
+
+    .mud-card-content {
+        flex-grow: 1;
+        padding: 17px;
+        margin-top: -36px !important;
+    }
+
+    .mud-input-control > .mud-input-control-input-container > .mud-input-label-inputcontrol {
+        font-size: 1rem !important;
+        font-weight: 600;
+    }
+
+    .mud-table.mud-data-grid .mud-table-toolbar {
+        padding: 0rem !important;
+    }
+
+    .mud-table-root {
+        margin-top: 1.3ewm !important;
+    }
+
+    .mud-table thead th {
+        /* background-color: #c3c3c3 !important; */
+        /* background-color: #dddddd !important;  */
+        color: black !important;
+        font-weight: 600;
+        /* border: 1px solid #ccc; */
+        /* border-top: 1px solid #eaeaea; */
+    }
+
+    .force-row {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+
+    .gap-20 {
+        column-gap: 190px;
+    }
+
+    .gap-21 {
+        column-gap: 207px;
+    }
+
+    .gap-22 {
+        column-gap: 140px;
+    }
+
+    .gap-19 {
+        /* column-gap: 159px; */
+    }
+
+    .mud-table-bordered th,
+    .mud-table-bordered td {
+        align-content: flex-start;
+        border: 1px solid #E3E3E3;
+        padding: 6px;
+    }
+
+    .mud-table-bordered {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    .compact-padding {
+        padding: 9px 16px 0px 16px;
+    }
+
+
+    .ultra-compact-grid .mud-table-row {
+        height: 26px !important;
+    }
+
+    .ultra-compact-grid .mud-table-cell {
+        padding: 2px 6px !important;
+        font-size: 0.75rem !important;
+    }
+
+    .mud-data-grid .mud-table-foot {
+        display: none !important;
+    }
+
+    .mud-table.mud-table-striped tbody tr:nth-child(odd) {
+        background-color: #fafafa !important;
+    }
+
+    .mud-table.mud-table-striped tbody tr:nth-child(even) {
+        background-color: #ebebeb !important;
+    }
+
+    .mud-table.mud-table-hover tbody tr:hover {
+        background-color: #00baef !important;
+        color: white;
+        cursor: pointer;
+    }
+
+    .mud-datagrid-header {
+        border-bottom: 1px solid #E6E6E6;
+    }
+
+    .mud-datagrid-pager .mud-select {
+        margin-left: auto !important;
+    }
+
+    .custom-pager .mud-datagrid-pager {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+</style>
 
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
 
+<PageTitle>@Title</PageTitle>
+
 <ErrorBoundary>
-    <MudGrid Style="padding:16px;">
+
+    <MudDataGrid T="SalesmanTrackerDto" Class="ultra-compact-grid compact-padding mud-datagrid-header" ServerData="@(ServerReload)"
+                 FixedHeader="true" FixedFooter="false" Loading="@_loading" ColumnResizeMode="ResizeMode.Column" 
+                 Striped="true" Dense="true" Hover="true" @ref="_dataGridSalesmanTracket" RowsPerPage="15" Style="height:100%; overflow:auto;">
+        
+        <ToolBarContent>
+            <MudStack Row Spacing="0" Class="flex-grow-1" Justify="Justify.SpaceBetween">
+                <MudStack Row AlignItems="AlignItems.Start">
+                    <MudStack Spacing="0">
+                        <MudText Typo="Typo.h3" Class="mb-2 fw-bold"><b>Salesman Activities</b></MudText>
+                        <div style="width: fit-content;">
+
+                            @* ==================================================== *@
+                            @* == HERE IS THE ROW FOR SEARCH AND ADD JOB REQUEST *@
+                            @* ==================================================== *@
+                            <MudStack Row Spacing="1">
+                                @* SEACH FIELD *@
+                                @if (_accessRights.Search)
+                                {
+                                    <MudTextField T="string"
+                                                  Variant="Variant.Outlined"
+                                                  Dense="true"
+                                                  Class="search small-input mt-3 mb-4"
+                                                  @bind-Value="_paginationQuery.Keyword"
+                                                  Placeholder="@ConstantString.Search"
+                                                  Adornment="Adornment.End"
+                                                  AdornmentIcon="@Icons.Material.Filled.Search"
+                                                  IconSize="Size.Small"
+                                                  Immediate="true"
+                                                  Clearable="true">
+                                    </MudTextField>
+
+                                }
+                            </MudStack>
+                        </div>
+                    </MudStack>
+                </MudStack>
+            </MudStack>
+        </ToolBarContent>
+
+    </MudDataGrid>
+    
+    @* <MudGrid Style="padding:16px;">
         <MudItem xs="12" sm="6">
             <MudText Typo="Typo.h3" Style="color: white;">
                 Welcome, <span style="color: orangered;">@UserProfile?.DisplayName</span>!
@@ -73,47 +263,36 @@
                 </MudItem>
             </MudGrid>
         </MudItem>
-   </MudGrid>
+   </MudGrid> *@
+
 </ErrorBoundary>
 
 
 @code {
 
-    public string Title { get; set; } = "Dashboard";
+    public string Title { get; set; } = "Salesman Activities";
+    [CascadingParameter] private Task<AuthenticationState> AuthState { get; set; } = default!;
+    [CascadingParameter] private UserProfile? UserProfile { get; set; }
+    private ProductsAccessRights _accessRights = new();
+    private PaginationQuerySalesmanTracker _paginationQuery { get; } = new();
+    private bool _loading;
 
-    private UserProfile UserProfile => UserProfileState.Value;
-    private List<TenantDto>? _availableTenants;
-
-    private string CurrentTime = DateTime.Now.ToString("HH:mm:ss");
-    private System.Timers.Timer? _timer;
+    private List<SalesmanTrackerDto> _List = new();
+    private MudDataGrid<SalesmanTrackerDto> _dataGridSalesmanTracket = default!;
 
     protected override void OnInitialized()
     {
-        _timer = new System.Timers.Timer(1000); // 1 second interval
-        _timer.Elapsed += UpdateTime;
-        _timer.Start();
-
         UserProfileState.Changed += OnUserProfileChanged;
         base.OnInitialized();
     }
 
-    private void UpdateTime(object? sender, System.Timers.ElapsedEventArgs e)
-    {
-        CurrentTime = DateTime.Now.ToString("HH:mm:ss");
-        InvokeAsync(StateHasChanged); // Trigger re-render
-    }
-
-
     protected override async Task OnInitializedAsync()
     {
         UserProfileState.Changed += OnUserProfileChanged;
-        await LoadAvailableTenants();
     }
 
     public void Dispose()
     {
-        _timer?.Stop();
-        _timer?.Dispose();
         UserProfileState.Changed -= OnUserProfileChanged;
     }
 
@@ -122,8 +301,26 @@
         InvokeAsync(StateHasChanged);
     }
 
-    private async Task LoadAvailableTenants()
+    private async Task<GridData<SalesmanTrackerDto>> ServerReload(GridState<SalesmanTrackerDto> state)
     {
-        _availableTenants = await TenantSwitchService.GetAvailableTenantsAsync();
+        try
+        {
+            _loading = true;
+            _paginationQuery.CurrentUser = UserProfile;
+            _paginationQuery.OrderBy = state.SortDefinitions.FirstOrDefault()?.SortBy ?? "Id";
+            _paginationQuery.SortDirection = state.SortDefinitions.FirstOrDefault()?.Descending ?? true
+                                              ? SortDirection.Descending.ToString()
+                                              : SortDirection.Ascending.ToString();
+            _paginationQuery.PageNumber = state.Page + 1;
+            _paginationQuery.PageSize = state.PageSize;
+
+            var result = await Mediator.Send(_paginationQuery).ConfigureAwait(false);
+            _List = result.Items?.ToList() ?? new List<SalesmanTrackerDto>();
+            return new GridData<SalesmanTrackerDto> { TotalItems = result.TotalItems, Items = _List };
+        }
+        finally
+        {
+            _loading = false;
+        }
     }
 }

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using ZiggyCreatures.Caching.Fusion;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services;
 
 /// <summary>
 ///     Adapted from https://github.com/aspnet/Security/blob/dev/samples/CookieSessionSample/MemoryCacheTicketStore.cs

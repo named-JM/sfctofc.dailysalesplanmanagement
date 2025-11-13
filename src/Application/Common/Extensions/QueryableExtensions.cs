@@ -2,9 +2,9 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 
 using Ardalis.Specification.EntityFrameworkCore;
-using SFCTOFC.DailySalesPlanManagementDomain.Common.Entities;
+using SFCTOFC.DailySalesPlanManagement.Domain.Common.Entities;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Extensions;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Extensions;
 
 public static class QueryableExtensions
 {

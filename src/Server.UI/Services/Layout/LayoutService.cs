@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
-using SFCTOFC.DailySalesPlanManagementServer.UI.Services.UserPreferences;
+using SFCTOFC.DailySalesPlanManagement.Server.UI.Services.UserPreferences;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Services.Layout;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Services.Layout;
 
 public class LayoutService
 {

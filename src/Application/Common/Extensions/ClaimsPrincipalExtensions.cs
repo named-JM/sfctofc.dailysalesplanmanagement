@@ -2,11 +2,11 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 
 using System.Security.Claims;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Security;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Constants.ClaimTypes;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Constants.Roles;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Security;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Constants.ClaimTypes;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Constants.Roles;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Extensions;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Extensions;
 
 public static class ClaimsPrincipalExtensions
 {

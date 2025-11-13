@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.References.REFBrand.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.References.REFBrand.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.References.REFBrand.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.References.REFBrand.DTOs;
 
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.References.Brand.Command.AddEdit;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.References.Brand.Command.AddEdit;
 public class AddEditBrandCommand : ICacheInvalidatorRequest<Result<int>>
 {
     public int Id { get; set; }

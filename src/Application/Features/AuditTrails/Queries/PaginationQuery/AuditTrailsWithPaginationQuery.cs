@@ -1,11 +1,11 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.AuditTrails.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.AuditTrails.DTOs;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.AuditTrails.Specifications;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.AuditTrails.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.AuditTrails.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.AuditTrails.Specifications;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.AuditTrails.Queries.PaginationQuery;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.AuditTrails.Queries.PaginationQuery;
 
 public class AuditTrailsWithPaginationQuery : AuditTrailAdvancedFilter, ICacheableRequest<PaginatedData<AuditTrailDto>>
 {

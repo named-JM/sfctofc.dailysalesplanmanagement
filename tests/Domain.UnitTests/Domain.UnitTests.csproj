@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
-        <RootNamespace>SFCTOFC.DailySalesPlanManagementDomain.UnitTests</RootNamespace>
-        <AssemblyName>SFCTOFC.DailySalesPlanManagementDomain.UnitTests</AssemblyName>
+        <RootNamespace>SFCTOFC.DailySalesPlanManagement.Domain.UnitTests</RootNamespace>
+        <AssemblyName>SFCTOFC.DailySalesPlanManagement.Domain.UnitTests</AssemblyName>
 
         <IsPackable>false</IsPackable>
 

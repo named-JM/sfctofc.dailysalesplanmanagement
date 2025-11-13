@@ -1,7 +1,7 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.MultiTenant;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.DTOs;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.MultiTenant;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.DTOs;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Components.Autocompletes;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Components.Autocompletes;
 
 public class MultiTenantAutocomplete<T> : MudAutocomplete<TenantDto>
 {

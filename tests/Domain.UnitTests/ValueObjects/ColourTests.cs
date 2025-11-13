@@ -1,12 +1,12 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementDomain.Common.Exceptions;
-using SFCTOFC.DailySalesPlanManagementDomain.ValueObjects;
+using SFCTOFC.DailySalesPlanManagement.Domain.Common.Exceptions;
+using SFCTOFC.DailySalesPlanManagement.Domain.ValueObjects;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace SFCTOFC.DailySalesPlanManagementDomain.UnitTests.ValueObjects;
+namespace SFCTOFC.DailySalesPlanManagement.Domain.UnitTests.ValueObjects;
 
 public class ColourTests
 {

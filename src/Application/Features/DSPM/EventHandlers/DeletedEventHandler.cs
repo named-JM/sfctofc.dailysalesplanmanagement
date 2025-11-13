@@ -1,5 +1,5 @@
 ﻿
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.DSPM.EventHandlers;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.DSPM.EventHandlers;
 public class OutletDeletedEventHandler : INotificationHandler<DeletedEvent<Outlets>>
 {
     private readonly ILogger<OutletDeletedEventHandler> _logger;

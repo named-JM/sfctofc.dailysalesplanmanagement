@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Pipeline;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Pipeline;
 
 /// <summary>
 ///     This class is a behavior pipeline in MediatR. It is used to monitor performance

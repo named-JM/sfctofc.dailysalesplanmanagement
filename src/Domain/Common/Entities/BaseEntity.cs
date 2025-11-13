@@ -3,7 +3,7 @@
 
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace SFCTOFC.DailySalesPlanManagementDomain.Common.Entities;
+namespace SFCTOFC.DailySalesPlanManagement.Domain.Common.Entities;
 
 public abstract class BaseEntity : IEntity<int>
 {

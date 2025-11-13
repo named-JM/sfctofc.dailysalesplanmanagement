@@ -1,6 +1,6 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.DTOs;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.DTOs;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Components.Autocompletes;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Components.Autocompletes;
 
 public class PicklistAutocomplete<T> : MudAutocomplete<string>
 {

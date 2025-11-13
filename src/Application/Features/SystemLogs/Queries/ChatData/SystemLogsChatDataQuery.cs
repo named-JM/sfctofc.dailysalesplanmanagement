@@ -1,10 +1,10 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.SystemLogs.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.SystemLogs.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.SystemLogs.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.SystemLogs.DTOs;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.SystemLogs.Queries.ChatData;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.SystemLogs.Queries.ChatData;
 
 public class SystemLogsTimeLineChatDataQuery : ICacheableRequest<List<SystemLogTimeLineDto>>
 {

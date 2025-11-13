@@ -1,6 +1,6 @@
 ﻿using FluentValidation.Internal;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
 
 public interface IValidationService
 {

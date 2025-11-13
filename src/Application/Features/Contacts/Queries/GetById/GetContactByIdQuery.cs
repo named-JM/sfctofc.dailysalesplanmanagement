@@ -2,11 +2,11 @@
 #nullable enable
 #nullable disable warnings
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.DTOs;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.Specifications;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.Specifications;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.Queries.GetById;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.Queries.GetById;
 
 public class GetContactByIdQuery : ICacheableRequest<Result<ContactDto>>
 {

@@ -78,7 +78,7 @@
 @code {
     [CascadingParameter] private UserProfile? UserProfile { get; set; }
     
-    [Inject] public IStringLocalizer<SFCTOFC.DailySalesPlanManagementServer.UI.Pages.Identity.Users.Profile> Localizer { get; set; } = null!;
+    [Inject] public IStringLocalizer<SFCTOFC.DailySalesPlanManagement.Server.UI.Pages.Identity.Users.Profile> Localizer { get; set; } = null!;
     [Inject] public UserManager<ApplicationUser> UserManager { get; set; } = null!;
 
     // Internal state - no longer parameters

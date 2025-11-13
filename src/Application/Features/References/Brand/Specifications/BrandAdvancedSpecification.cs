@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.References.REFBrand.Specifications;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.References.REFBrand.Specifications;
 public class BrandAdvancedSpecification : Specification<Brands>
 {
     public BrandAdvancedSpecification(BrandAdvancedFilter filter)

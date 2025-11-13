@@ -1,5 +1,5 @@
 ﻿
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Products.EventHandlers;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Products.EventHandlers;
 
 public class ProductDeletedEventHandler : INotificationHandler<DeletedEvent<Product>>
 {

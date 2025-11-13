@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementServer.UI.Components.Autocompletes;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Components.Autocompletes;
 
 public class TimeZoneAutocomplete<T> : MudAutocomplete<string>
 {

@@ -1,12 +1,12 @@
 ﻿@page "/system/logs"
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.SystemLogs.Caching
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.SystemLogs.DTOs
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.SystemLogs.Queries.PaginationQuery
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.SystemLogs.Specifications
-@using SFCTOFC.DailySalesPlanManagementServer.UI.Components.UtcToLocalTime
-@using SFCTOFC.DailySalesPlanManagementServer.UI.Services.JsInterop
-@using SFCTOFC.DailySalesPlanManagementServer.UI.Pages.SystemManagement.Components
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.SystemLogs.Commands.Clear
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.SystemLogs.Caching
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.SystemLogs.DTOs
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.SystemLogs.Queries.PaginationQuery
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.SystemLogs.Specifications
+@using SFCTOFC.DailySalesPlanManagement.Server.UI.Components.UtcToLocalTime
+@using SFCTOFC.DailySalesPlanManagement.Server.UI.Services.JsInterop
+@using SFCTOFC.DailySalesPlanManagement.Server.UI.Pages.SystemManagement.Components
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.SystemLogs.Commands.Clear
 
 @attribute [Authorize(Policy = Permissions.Logs.View)]
 @inject IStringLocalizer<SystemLogs> L

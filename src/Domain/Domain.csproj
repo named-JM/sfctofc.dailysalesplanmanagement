@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
-        <RootNamespace>SFCTOFC.DailySalesPlanManagementDomain</RootNamespace>
-        <AssemblyName>SFCTOFC.DailySalesPlanManagementDomain</AssemblyName>
+        <RootNamespace>SFCTOFC.DailySalesPlanManagement.Domain</RootNamespace>
+        <AssemblyName>SFCTOFC.DailySalesPlanManagement.Domain</AssemblyName>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>default</LangVersion>

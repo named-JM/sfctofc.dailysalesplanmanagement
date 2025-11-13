@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Identity.Notifications.SendFactorCode;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Identity.Notifications.SendFactorCode;
 
 public record SendFactorCodeNotification(string Email, string UserName, string AuthenticatorCode) : INotification;
 

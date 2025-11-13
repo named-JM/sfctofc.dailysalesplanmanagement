@@ -2,9 +2,9 @@
 #nullable enable
 #nullable disable warnings
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.Caching;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.Commands.Create;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.Commands.Create;
 
 public class CreateContactCommand: ICacheInvalidatorRequest<Result<int>>
 {

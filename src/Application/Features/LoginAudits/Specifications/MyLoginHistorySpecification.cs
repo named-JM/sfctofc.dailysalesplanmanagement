@@ -1,10 +1,10 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.LoginAudits.Queries.GetMyLoginHistory;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.LoginAudits.Queries.GetMyLoginHistory;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.LoginAudits.Specifications;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.LoginAudits.Specifications;
 
 public class MyLoginHistorySpecification : Specification<LoginAudit>
 {

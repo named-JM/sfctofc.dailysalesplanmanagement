@@ -2,7 +2,7 @@
 #nullable enable
 #nullable disable warnings
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.Caching;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.Caching;
 /// <summary>
 /// Static class for managing cache keys and expiration for Contact-related data.
 /// </summary>

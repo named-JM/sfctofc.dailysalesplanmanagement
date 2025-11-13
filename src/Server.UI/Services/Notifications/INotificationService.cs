@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementServer.UI.Services.Notifications;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Services.Notifications;
 
 public interface INotificationService
 {

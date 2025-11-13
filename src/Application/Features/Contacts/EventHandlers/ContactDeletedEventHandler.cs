@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.EventHandlers;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.EventHandlers;
 
     public class ContactDeletedEventHandler : INotificationHandler<ContactDeletedEvent>
     {

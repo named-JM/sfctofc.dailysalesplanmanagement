@@ -1,9 +1,9 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Configurations;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Configurations;
 
 /// <summary>
 /// AI configuration settings implementation

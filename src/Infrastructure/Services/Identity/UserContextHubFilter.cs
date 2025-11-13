@@ -1,7 +1,7 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity;
 using Microsoft.AspNetCore.SignalR;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services.Identity;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services.Identity;
 
 /// <summary>
 /// SignalR hub filter that sets user context when connections are established.

@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Security;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Security;
 
 /// <summary>
 /// Immutable user profile record representing user information state.

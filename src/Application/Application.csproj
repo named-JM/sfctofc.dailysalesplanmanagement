@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
-        <RootNamespace>SFCTOFC.DailySalesPlanManagementApplication</RootNamespace>
-        <AssemblyName>SFCTOFC.DailySalesPlanManagementApplication</AssemblyName>
+        <RootNamespace>SFCTOFC.DailySalesPlanManagement.Application</RootNamespace>
+        <AssemblyName>SFCTOFC.DailySalesPlanManagement.Application</AssemblyName>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>default</LangVersion>
@@ -35,12 +35,11 @@
         </PackageReference>
     </ItemGroup>
     <ItemGroup>
-        <ProjectReference Include="..\Domain\Domain.csproj" />
-    </ItemGroup>
-    <ItemGroup>
       <Folder Include="Features\Distributors\DTOs\" />
       <Folder Include="Features\DSPM\Commands\" />
-      <Folder Include="Features\DSPM\Specifications\" />
       <Folder Include="Features\DSPM\Security\" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Domain\Domain.csproj" />
     </ItemGroup>
 </Project>

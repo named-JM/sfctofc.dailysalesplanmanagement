@@ -1,10 +1,10 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.LoginAudits.DTOs;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.LoginAudits.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.LoginAudits.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.LoginAudits.Caching;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.LoginAudits.Queries.GetAll;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.LoginAudits.Queries.GetAll;
 
 public class GetAllLoginAuditsQuery : ICacheableRequest<IEnumerable<LoginAuditDto>>
 {

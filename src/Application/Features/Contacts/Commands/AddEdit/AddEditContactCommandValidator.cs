@@ -11,7 +11,7 @@
 #nullable disable warnings
 
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.Commands.AddEdit;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.Commands.AddEdit;
 
 public class AddEditContactCommandValidator : AbstractValidator<AddEditContactCommand>
 {

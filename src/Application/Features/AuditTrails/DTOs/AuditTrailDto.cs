@@ -3,9 +3,9 @@
 
 
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Identity.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Identity.DTOs;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.AuditTrails.DTOs;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.AuditTrails.DTOs;
 
 [Description("Audit Trails")]
 public class AuditTrailDto

@@ -1,9 +1,9 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
 
 /// <summary>
 /// Service for analyzing user login security risks

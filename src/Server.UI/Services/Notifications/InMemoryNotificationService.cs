@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Services.Notifications;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Services.Notifications;
 
 public class InMemoryNotificationService : INotificationService
 {

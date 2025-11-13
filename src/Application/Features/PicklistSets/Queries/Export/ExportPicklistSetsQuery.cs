@@ -1,9 +1,9 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.DTOs;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Queries.Export;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Queries.Export;
 
 public class ExportPicklistSetsQuery : IRequest<byte[]>
 {

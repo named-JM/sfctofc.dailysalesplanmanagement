@@ -1,7 +1,7 @@
 ﻿using EntityFramework.Exceptions.Common;
 using System.Collections.Concurrent;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.ExceptionHandlers;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.ExceptionHandlers;
 
 /// <summary>
 /// Handles database update exceptions and converts them into Result or Result&lt;T&gt; responses.

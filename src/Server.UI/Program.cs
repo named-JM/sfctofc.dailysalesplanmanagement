@@ -4,12 +4,12 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using SFCTOFC.DailySalesPlanManagementApplication;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
-using SFCTOFC.DailySalesPlanManagementInfrastructure;
-using SFCTOFC.DailySalesPlanManagementInfrastructure.Extensions;
-using SFCTOFC.DailySalesPlanManagementInfrastructure.Persistence;
-using SFCTOFC.DailySalesPlanManagementServer.UI;
+using SFCTOFC.DailySalesPlanManagement.Application;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Infrastructure;
+using SFCTOFC.DailySalesPlanManagement.Infrastructure.Extensions;
+using SFCTOFC.DailySalesPlanManagement.Infrastructure.Persistence;
+using SFCTOFC.DailySalesPlanManagement.Server.UI;
 
 //var builder = WebApplication.CreateBuilder(args);
 //builder.RegisterSerilog();

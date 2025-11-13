@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.PublishStrategies;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.PublishStrategies;
 
 public class ParallelNoWaitPublisher : INotificationPublisher
 {

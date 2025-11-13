@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
 
 /// <summary>
 /// AI configuration settings interface

@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Common.ExceptionHandlers;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Common.ExceptionHandlers;
 
 public sealed class FallbackExceptionHandler<TRequest, TResponse, TException> : IRequestExceptionHandler<TRequest, TResponse, TException>
     where TRequest : IRequest<TResponse>

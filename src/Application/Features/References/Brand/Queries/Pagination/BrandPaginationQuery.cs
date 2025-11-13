@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 using DocumentFormat.OpenXml.Wordprocessing;
 using FluentEmail.Core.Models;
 using MailKit.Search;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.References.REFBrand.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.References.REFBrand.DTOs;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.References.REFBrand.Specifications;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.References.REFBrand.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.References.REFBrand.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.References.REFBrand.Specifications;
 using static Microsoft.Extensions.Logging.EventSource.LoggingEventSource;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.References.REFBrand.Queries.Pagination;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.References.REFBrand.Queries.Pagination;
 public class BrandWithPaginationQuery : BrandAdvancedFilter, ICacheableRequest<PaginatedData<BrandDto>>
 {
     public BrandAdvancedSpecification Specification => new(this);

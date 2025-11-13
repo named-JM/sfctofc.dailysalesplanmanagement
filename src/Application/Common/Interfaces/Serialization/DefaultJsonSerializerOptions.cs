@@ -2,7 +2,7 @@
 using System.Text.Json.Serialization;
 using System.Text.Unicode;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Serialization;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Serialization;
 
 public class DefaultJsonSerializerOptions
 {

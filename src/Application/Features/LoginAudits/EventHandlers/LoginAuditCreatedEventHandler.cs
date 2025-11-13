@@ -8,14 +8,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
-using SFCTOFC.DailySalesPlanManagementDomain.Enums;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
+using SFCTOFC.DailySalesPlanManagement.Domain.Enums;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
 using Microsoft.Extensions.DependencyInjection;
 using ZiggyCreatures.Caching.Fusion;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.LoginAudits.EventHandlers;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.LoginAudits.EventHandlers;
 
 public class LoginAuditCreatedEventHandler : INotificationHandler<LoginAuditCreatedEvent>
 {

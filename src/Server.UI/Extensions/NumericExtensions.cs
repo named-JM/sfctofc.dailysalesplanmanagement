@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Extensions;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Extensions;
 
 public static class NumericExtensions
 {

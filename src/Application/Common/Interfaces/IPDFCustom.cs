@@ -1,5 +1,5 @@
 ﻿
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
 
 public interface IPDFCustom
 {

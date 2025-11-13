@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Common.ExceptionHandlers;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Common.ExceptionHandlers;
 
 public sealed class
     ValidationExceptionHandler<TRequest, TResponse, TException> : IRequestExceptionHandler<TRequest, TResponse,

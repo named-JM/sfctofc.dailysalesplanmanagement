@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Common.ExceptionHandlers;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Common.ExceptionHandlers;
 
 /// <summary>
 /// Handles NotFoundException and converts them into Result or Result&lt;T&gt; responses.

@@ -1,8 +1,8 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Features.Identity.DTOs;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Features.Identity.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 using ZiggyCreatures.Caching.Fusion;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services.Identity;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services.Identity;
 
 public class RoleService : IRoleService, IDisposable
 {

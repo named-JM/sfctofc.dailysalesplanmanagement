@@ -1,6 +1,6 @@
 ﻿using Microsoft.JSInterop;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Services.JsInterop;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Services.JsInterop;
 
 public sealed class Swiper
 {

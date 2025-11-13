@@ -1,10 +1,10 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Commands.AddEdit;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Commands.AddEdit;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Commands.Import;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Commands.Import;
 
 public class ImportPicklistSetsCommand : ICacheInvalidatorRequest<Result>
 {

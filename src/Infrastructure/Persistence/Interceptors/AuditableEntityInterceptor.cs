@@ -1,8 +1,8 @@
-﻿using SFCTOFC.DailySalesPlanManagementDomain.Common.Entities;
+﻿using SFCTOFC.DailySalesPlanManagement.Domain.Common.Entities;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Persistence.Interceptors;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Persistence.Interceptors;
 #nullable disable warnings
 
 /// <summary>

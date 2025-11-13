@@ -2,12 +2,12 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 
 
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.MultiTenant;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.MultiTenant;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.DTOs;
 
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.Commands.AddEdit;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.Commands.AddEdit;
 
 public class AddEditTenantCommand : ICacheInvalidatorRequest<Result<string>>
 {

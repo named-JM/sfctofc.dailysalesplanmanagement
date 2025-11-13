@@ -1,6 +1,6 @@
 ﻿using Hangfire.Dashboard;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Middlewares;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Middlewares;
 
 public class HangfireDashboardAsyncAuthorizationFilter : IDashboardAsyncAuthorizationFilter
 {

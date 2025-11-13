@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
-using SFCTOFC.DailySalesPlanManagementInfrastructure.Services.Identity;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Infrastructure.Services.Identity;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Controllers;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Controllers;
 
 [ApiController]
 [Microsoft.AspNetCore.Mvc.Route("api/[controller]")]

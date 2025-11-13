@@ -1,6 +1,6 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Features.Identity.DTOs;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Features.Identity.DTOs;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Security;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Security;
 public class ChangeUserProfileModel
 {
     public string? Provider { get; set; }

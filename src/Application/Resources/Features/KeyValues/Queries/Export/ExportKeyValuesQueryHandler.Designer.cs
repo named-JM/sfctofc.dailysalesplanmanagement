@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Resources.Features.KeyValues.Queries.Export {
+namespace SFCTOFC.DailySalesPlanManagement.Application.Resources.Features.KeyValues.Queries.Export {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace SFCTOFC.DailySalesPlanManagementApplication.Resources.Features.KeyValu
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SFCTOFC.DailySalesPlanManagementApplication.Resources.Features.KeyValues.Queries.Export." +
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SFCTOFC.DailySalesPlanManagement.Application.Resources.Features.KeyValues.Queries.Export." +
                             "ExportKeyValuesQueryHandler", typeof(ExportKeyValuesQueryHandler).Assembly);
                     resourceMan = temp;
                 }

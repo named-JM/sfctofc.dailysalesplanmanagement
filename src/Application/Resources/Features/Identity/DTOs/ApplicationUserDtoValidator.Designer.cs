@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Resources.Features.Identity.DTOs {
+namespace SFCTOFC.DailySalesPlanManagement.Application.Resources.Features.Identity.DTOs {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace SFCTOFC.DailySalesPlanManagementApplication.Resources.Features.Identit
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SFCTOFC.DailySalesPlanManagementApplication.Resources.Features.Identity.DTOs.Application" +
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SFCTOFC.DailySalesPlanManagement.Application.Resources.Features.Identity.DTOs.Application" +
                             "UserDtoValidator", typeof(ApplicationUserDtoValidator).Assembly);
                     resourceMan = temp;
                 }

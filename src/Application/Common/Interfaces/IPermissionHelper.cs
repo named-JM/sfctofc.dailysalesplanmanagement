@@ -1,6 +1,6 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Common.Security;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Common.Security;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
 
 /// <summary>
 /// Interface for permission helper operations.

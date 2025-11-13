@@ -1,5 +1,5 @@
 ﻿
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Distributors.Commands.AddEdit;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Distributors.Commands.AddEdit;
 
 public class AddEditDistributorCommand
 {

@@ -5,7 +5,7 @@
 using System.Security.Cryptography;
 using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Services.UserPreferences;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Services.UserPreferences;
 
 public interface IUserPreferencesService
 {

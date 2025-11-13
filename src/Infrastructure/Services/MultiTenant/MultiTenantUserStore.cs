@@ -1,6 +1,6 @@
-﻿using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+﻿using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services.MultiTenant;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services.MultiTenant;
 
 /// <summary>
 /// Represents a multi-tenant user store.

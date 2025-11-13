@@ -1,9 +1,9 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-//using SFCTOFC.DailySalesPlanManagementDomain.Common;
+//using SFCTOFC.DailySalesPlanManagement.Domain.Common;
 
-//namespace SFCTOFC.DailySalesPlanManagementApplication.Common.EventHandlers;
+//namespace SFCTOFC.DailySalesPlanManagement.Application.Common.EventHandlers;
 //public class DeletedEventHandler<T> : INotificationHandler<DomainEventNotification<DeletedEvent<T>>> where T : IHasDomainEvent
 //{
 //    private readonly ILogger<DeletedEventHandler<T>> _logger;

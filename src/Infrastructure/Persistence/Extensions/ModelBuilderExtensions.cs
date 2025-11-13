@@ -4,7 +4,7 @@
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore.Query;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Persistence.Extensions;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Persistence.Extensions;
 
 public static class ModelBuilderExtensions
 {

@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using NUnit.Framework;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.IntegrationTests;
+namespace SFCTOFC.DailySalesPlanManagement.Application.IntegrationTests;
 
 using static Testing;
 

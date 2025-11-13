@@ -1,7 +1,7 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Identity.DTOs;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Identity.DTOs;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Security;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Security;
 
 public class RegisterFormModelFluentValidator : AbstractValidator<RegisterFormModel>
 {

@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Constants;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Constants;
 
 public static class GlobalVariable
 {

@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Diagnostics;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Middlewares;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Middlewares;
 
 internal sealed class GlobalExceptionHandler(ILogger<GlobalExceptionHandler> logger) : IExceptionHandler
 {

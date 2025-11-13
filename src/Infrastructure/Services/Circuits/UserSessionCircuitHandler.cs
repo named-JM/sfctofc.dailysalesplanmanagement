@@ -1,7 +1,7 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Common.Extensions;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Common.Extensions;
 using Microsoft.AspNetCore.Components.Server.Circuits;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services.Circuits;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services.Circuits;
 
 /// <summary>
 /// Handles user session tracking and online user tracking for Blazor server circuits.

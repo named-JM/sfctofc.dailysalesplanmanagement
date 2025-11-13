@@ -1,8 +1,8 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Common.Constants.Roles;
-using SFCTOFC.DailySalesPlanManagementServer.UI.Models.NavigationMenu;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Common.Constants.Roles;
+using SFCTOFC.DailySalesPlanManagement.Server.UI.Models.NavigationMenu;
 using static MudBlazor.CategoryTypes;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Services.Navigation;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Services.Navigation;
 
 public class MenuService : IMenuService
 {
@@ -13,35 +13,128 @@ public class MenuService : IMenuService
             Title = "APPLICATION",
             SectionItems = new List<MenuSectionItemModel>
             {
-                new() { 
-                    Title = "DASHBOARD",
-                    Icon = Icons.Material.Filled.Dashboard,
-                    Href = "/" 
-                },
-                new()
-                {
-                    Title = "REFERENCES",
-                    Roles = new[] { RoleName.Admin, RoleName.Users },
-                    Icon = Icons.Material.Filled.People,
-                    PageStatus = PageStatus.Completed,
+                new() {
                     IsParent = true,
+                    Title = "APPLICATIONS",
+                    Icon = Icons.Material.Filled.Apps,
                     MenuItems = new List<MenuSectionSubItemModel>
                     {
                         new()
                         {
-                            Title = "Brands",
+                            Title = "Dashboard",
                             //Icon = Icons.Material.Filled.ArrowRight,
-                            Href = "/pages/brand",
-                            PageStatus = PageStatus.Completed
+                            Href = "/",
+                            PageStatus = PageStatus.ComingSoon
                         },
-                     
+                        new()
+                        {
+                            Title = "Overview",
+                            //Icon = Icons.Material.Filled.ArrowRight,
+                            Href = "/",
+                            PageStatus = PageStatus.ComingSoon
+                        },
+                    }
+                },
+                new() {
+                    IsParent = true,
+                    Title = "SALES",
+                    Icon = Icons.Material.Filled.Ballot,
+                    MenuItems = new List<MenuSectionSubItemModel>
+                    {
+                        new()
+                        {
+                            Title = "Purchase Orders",
+                            //Icon = Icons.Material.Filled.ArrowRight,
+                            Href = "/",
+                            PageStatus = PageStatus.ComingSoon
+                        },
+                        new()
+                        {
+                            Title = "Sales Orders",
+                            //Icon = Icons.Material.Filled.ArrowRight,
+                            Href = "/",
+                            PageStatus = PageStatus.ComingSoon
+                        },
+                        new()
+                        {
+                            Title = "Delivery Receipt",
+                            //Icon = Icons.Material.Filled.ArrowRight,
+                            Href = "/",
+                            PageStatus = PageStatus.ComingSoon
+                        },
+                    }
+                },
+                new() {
+                    IsParent = true,
+                    Title = "CRM",
+                    Icon = Icons.Material.Filled.CoPresent,
+                    MenuItems = new List<MenuSectionSubItemModel>
+                    {
+                        new()
+                        {
+                            Title = "Activities",
+                            //Icon = Icons.Material.Filled.ArrowRight,
+                            Href = "/",
+                            PageStatus = PageStatus.ComingSoon
+                        },
+                        new()
+                        {
+                            Title = "Task (Special Instruction)",
+                            //Icon = Icons.Material.Filled.ArrowRight,
+                            Href = "/",
+                            PageStatus = PageStatus.ComingSoon
+                        },
+                    }
+                },
+                new() {
+                    IsParent = true,
+                    Title = "MASTER DATA",
+                    Icon = Icons.Material.Filled.ImportantDevices,
+                    MenuItems = new List<MenuSectionSubItemModel>
+                    {
+                        new()
+                        {
+                            Title = "Outlets",
+                            //Icon = Icons.Material.Filled.ArrowRight,
+                            Href = "/",
+                            PageStatus = PageStatus.ComingSoon
+                        },
+                        new()
+                        {
+                            Title = "Products",
+                            //Icon = Icons.Material.Filled.ArrowRight,
+                            Href = "/",
+                            PageStatus = PageStatus.ComingSoon
+                        },
+                        new()
+                        {
+                            Title = "Salesman",
+                            //Icon = Icons.Material.Filled.ArrowRight,
+                            Href = "/",
+                            PageStatus = PageStatus.ComingSoon
+                        },
+                    }
+                },
+                new() {
+                    IsParent = true,
+                    Title = "REPORTS",
+                    Icon = Icons.Material.Filled.Report,
+                    MenuItems = new List<MenuSectionSubItemModel>
+                    {
+                        new()
+                        {
+                            Title = "STT Data",
+                            //Icon = Icons.Material.Filled.ArrowRight,
+                            Href = "/",
+                            PageStatus = PageStatus.ComingSoon
+                        },
                     }
                 },
             }
         },
         new MenuSectionModel
         {
-            Title = "MANAGEMENT",
+            Title = "SYSTEM MANAGEMENT",
             Roles = new[] { RoleName.Admin },
             SectionItems = new List<MenuSectionItemModel>
             {

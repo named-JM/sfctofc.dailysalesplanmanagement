@@ -1,15 +1,17 @@
 ﻿
-using SFCTOFC.DailySalesPlanManagementDomain.Entities;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Domain.Entities;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 using Microsoft.AspNetCore.DataProtection.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
 
 public interface IApplicationDbContext: IAsyncDisposable
 {
     #region DSPM
     DbSet<Outlets> Outlets { get; set; }
+    DbSet<SalesmanTracker> SalesmanTracker { get; set; }
+
     #endregion
 
     #region DEFAULT ENTITIES

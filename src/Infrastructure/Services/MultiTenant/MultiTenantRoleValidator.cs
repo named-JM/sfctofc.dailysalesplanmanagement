@@ -1,6 +1,6 @@
-﻿using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+﻿using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services.MultiTenant;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services.MultiTenant;
 /// <summary>
 /// A custom role validator to enforce multi-tenant uniqueness for roles.
 /// Ensures that role names are unique within a specific tenant.

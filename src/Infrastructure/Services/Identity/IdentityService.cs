@@ -1,13 +1,13 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Common.ExceptionHandlers;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Identity.DTOs;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.ExceptionHandlers;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Identity.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 using Microsoft.AspNetCore.Authorization;
 using ZiggyCreatures.Caching.Fusion;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services.Identity;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services.Identity;
 
 public class IdentityService : IIdentityService, IDisposable
 {

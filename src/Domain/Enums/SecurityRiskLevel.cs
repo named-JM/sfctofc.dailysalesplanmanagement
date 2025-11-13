@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace SFCTOFC.DailySalesPlanManagementDomain.Enums;
+namespace SFCTOFC.DailySalesPlanManagement.Domain.Enums;
 
 public enum SecurityRiskLevel
 {

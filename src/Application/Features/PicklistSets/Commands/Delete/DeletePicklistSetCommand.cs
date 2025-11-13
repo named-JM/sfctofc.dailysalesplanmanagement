@@ -1,9 +1,9 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Caching;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Commands.Delete;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Commands.Delete;
 
 public class DeletePicklistSetCommand : ICacheInvalidatorRequest<Result>
 {

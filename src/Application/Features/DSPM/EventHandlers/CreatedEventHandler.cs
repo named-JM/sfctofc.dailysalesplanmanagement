@@ -1,7 +1,7 @@
 ﻿
 using System.Diagnostics;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.DSPM.EventHandlers;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.DSPM.EventHandlers;
 public class OutletCreatedEventHandler : INotificationHandler<CreatedEvent<Outlets>>
 {
     private readonly ILogger<OutletCreatedEventHandler> _logger;

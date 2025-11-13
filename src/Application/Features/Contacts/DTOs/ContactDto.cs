@@ -2,7 +2,7 @@
 #nullable enable
 #nullable disable warnings
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.DTOs;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.DTOs;
 
 [Description("Contacts")]
 public class ContactDto

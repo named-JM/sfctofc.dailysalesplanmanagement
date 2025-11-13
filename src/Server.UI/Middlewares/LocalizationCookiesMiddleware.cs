@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Options;
 using IMiddleware = Microsoft.AspNetCore.Http.IMiddleware;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Middlewares;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Middlewares;
 #nullable disable
 public class LocalizationCookiesMiddleware : IMiddleware
 {

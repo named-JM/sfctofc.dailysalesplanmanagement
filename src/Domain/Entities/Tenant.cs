@@ -1,6 +1,6 @@
-﻿using SFCTOFC.DailySalesPlanManagementDomain.Common.Entities;
+﻿using SFCTOFC.DailySalesPlanManagement.Domain.Common.Entities;
 
-namespace SFCTOFC.DailySalesPlanManagementDomain.Entities;
+namespace SFCTOFC.DailySalesPlanManagement.Domain.Entities;
 
 public class Tenant : IEntity<string>
 {

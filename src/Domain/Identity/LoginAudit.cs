@@ -1,6 +1,6 @@
-﻿using SFCTOFC.DailySalesPlanManagementDomain.Common.Entities;
+﻿using SFCTOFC.DailySalesPlanManagement.Domain.Common.Entities;
 
-namespace SFCTOFC.DailySalesPlanManagementDomain.Identity;
+namespace SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 public class LoginAudit : BaseAuditableEntity
 {
     public DateTime LoginTimeUtc { get; set; }

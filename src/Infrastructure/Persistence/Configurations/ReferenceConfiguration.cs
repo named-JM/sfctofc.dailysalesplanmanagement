@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Persistence.Configurations;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Persistence.Configurations;
 public class BrandConfiguration : IEntityTypeConfiguration<Brands>
 {
     public void Configure(EntityTypeBuilder<Brands> builder)

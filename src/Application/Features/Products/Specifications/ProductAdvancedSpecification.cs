@@ -1,5 +1,5 @@
 ﻿
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Specifications;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Specifications;
 
 public class ProductAdvancedSpecification : Specification<Product>
 {

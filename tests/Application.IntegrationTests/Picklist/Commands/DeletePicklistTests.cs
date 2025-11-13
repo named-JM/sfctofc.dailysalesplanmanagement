@@ -1,12 +1,12 @@
 ﻿using System.Threading.Tasks;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.ExceptionHandlers;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Commands.AddEdit;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Commands.Delete;
-using SFCTOFC.DailySalesPlanManagementDomain.Entities;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.ExceptionHandlers;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Commands.AddEdit;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Commands.Delete;
+using SFCTOFC.DailySalesPlanManagement.Domain.Entities;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.IntegrationTests.KeyValues.Commands;
+namespace SFCTOFC.DailySalesPlanManagement.Application.IntegrationTests.KeyValues.Commands;
 
 using static Testing;
 

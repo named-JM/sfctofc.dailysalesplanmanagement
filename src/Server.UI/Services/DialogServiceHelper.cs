@@ -1,6 +1,6 @@
-﻿using SFCTOFC.DailySalesPlanManagementServer.UI.Components.Dialogs;
+﻿using SFCTOFC.DailySalesPlanManagement.Server.UI.Components.Dialogs;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Services;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Services;
 
 /// <summary>
 /// Helper class for dialog service operations.

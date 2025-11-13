@@ -3,7 +3,7 @@
 
 using System.Collections;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
 public interface IDatabaseService
 {
     Task<DataTable> ExecuteStoredProcedureAsync(string procedureName, DictionaryEntry[]? parameters = null);

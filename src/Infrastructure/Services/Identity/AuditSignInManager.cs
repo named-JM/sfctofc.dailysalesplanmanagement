@@ -1,11 +1,11 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services;
 
 public class AuditSignInManager<TUser> : SignInManager<TUser>
     where TUser : class

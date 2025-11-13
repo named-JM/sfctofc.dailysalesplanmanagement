@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Configurations;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Configurations;
 
 /// <summary>
 ///     Configuration wrapper for the database section

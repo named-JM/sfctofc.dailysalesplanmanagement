@@ -3,7 +3,7 @@
 
 using System.ComponentModel;
 
-namespace SFCTOFC.DailySalesPlanManagementDomain.Common.Enums;
+namespace SFCTOFC.DailySalesPlanManagement.Domain.Common.Enums;
 
 public enum UploadType : byte
 {

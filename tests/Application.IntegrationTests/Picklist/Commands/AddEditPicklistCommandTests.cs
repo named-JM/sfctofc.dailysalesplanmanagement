@@ -1,11 +1,11 @@
 ﻿using System.Threading.Tasks;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Commands.AddEdit;
-using SFCTOFC.DailySalesPlanManagementDomain.Entities;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Commands.AddEdit;
+using SFCTOFC.DailySalesPlanManagement.Domain.Entities;
 using FluentAssertions;
 using FluentValidation;
 using NUnit.Framework;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.IntegrationTests.KeyValues.Commands;
+namespace SFCTOFC.DailySalesPlanManagement.Application.IntegrationTests.KeyValues.Commands;
 
 using static Testing;
 

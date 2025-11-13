@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
 using Microsoft.AspNetCore.Authorization;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Security;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Security;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services;
 //// <summary>
 /// Implementation of the IPermissionService using reflection to evaluate access rights
 /// based on a naming convention. For example, an access rights model named "ContactsAccessRights"

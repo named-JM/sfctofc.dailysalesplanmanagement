@@ -1,8 +1,8 @@
 ﻿
-using SFCTOFC.DailySalesPlanManagementApplication.Features.DSPM.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.DSPM.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.DSPM.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.DSPM.DTOs;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.DSPM.Queries.GetAll;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.DSPM.Queries.GetAll;
 
 public class GetAllOutletsQuery : IRequest<IEnumerable<OutletDto>>
 {

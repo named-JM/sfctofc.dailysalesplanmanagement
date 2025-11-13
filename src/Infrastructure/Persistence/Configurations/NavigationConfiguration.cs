@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-using SFCTOFC.DailySalesPlanManagementDomain.Entities;
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Persistence.Configurations;
+using SFCTOFC.DailySalesPlanManagement.Domain.Entities;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Persistence.Configurations;
 
 public class MenuSectionConfiguration : IEntityTypeConfiguration<MenuSection>
 {

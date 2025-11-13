@@ -1,17 +1,17 @@
 ﻿using System.Net.Http.Headers;
-using SFCTOFC.DailySalesPlanManagementApplication;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Constants.Localization;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
-using SFCTOFC.DailySalesPlanManagementInfrastructure.Services.Identity;
-using SFCTOFC.DailySalesPlanManagementServer.UI.Hubs;
-using SFCTOFC.DailySalesPlanManagementServer.UI.Middlewares;
-using SFCTOFC.DailySalesPlanManagementServer.UI.Services;
-using SFCTOFC.DailySalesPlanManagementServer.UI.Services.Identity;
-using SFCTOFC.DailySalesPlanManagementServer.UI.Services.JsInterop;
-using SFCTOFC.DailySalesPlanManagementServer.UI.Services.Layout;
-using SFCTOFC.DailySalesPlanManagementServer.UI.Services.Navigation;
-using SFCTOFC.DailySalesPlanManagementServer.UI.Services.Notifications;
-using SFCTOFC.DailySalesPlanManagementServer.UI.Services.UserPreferences;
+using SFCTOFC.DailySalesPlanManagement.Application;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Constants.Localization;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
+using SFCTOFC.DailySalesPlanManagement.Infrastructure.Services.Identity;
+using SFCTOFC.DailySalesPlanManagement.Server.UI.Hubs;
+using SFCTOFC.DailySalesPlanManagement.Server.UI.Middlewares;
+using SFCTOFC.DailySalesPlanManagement.Server.UI.Services;
+using SFCTOFC.DailySalesPlanManagement.Server.UI.Services.Identity;
+using SFCTOFC.DailySalesPlanManagement.Server.UI.Services.JsInterop;
+using SFCTOFC.DailySalesPlanManagement.Server.UI.Services.Layout;
+using SFCTOFC.DailySalesPlanManagement.Server.UI.Services.Navigation;
+using SFCTOFC.DailySalesPlanManagement.Server.UI.Services.Notifications;
+using SFCTOFC.DailySalesPlanManagement.Server.UI.Services.UserPreferences;
 using Hangfire;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Localization;
@@ -21,7 +21,7 @@ using MudBlazor.Services;
 using QuestPDF;
 using QuestPDF.Infrastructure;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI;
 
 /// <summary>
 /// Provides dependency injection configuration for the server UI.

@@ -1,5 +1,5 @@
 ﻿
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.DSPM.EventHandlers;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.DSPM.EventHandlers;
 public class OutletUpdatedEventHandler : INotificationHandler<UpdatedEvent<Outlets>>
 {
     private readonly ILogger<OutletUpdatedEventHandler> _logger;

@@ -2,10 +2,10 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Products.DTOs;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Specifications;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Products.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Specifications;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Queries.Export;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Queries.Export;
 
 public class ExportProductsQuery : ProductAdvancedFilter, IRequest<Result<byte[]>>
 {

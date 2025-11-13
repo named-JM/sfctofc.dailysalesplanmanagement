@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services.Identity;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services.Identity;
 
 /// <summary>
 /// Implementation of IUserContextAccessor using AsyncLocal for call chain isolation.

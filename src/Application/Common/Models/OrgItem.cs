@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Models;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Models;
 
 public class OrgItem
 {

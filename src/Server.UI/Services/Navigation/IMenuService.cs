@@ -1,6 +1,6 @@
-﻿using SFCTOFC.DailySalesPlanManagementServer.UI.Models.NavigationMenu;
+﻿using SFCTOFC.DailySalesPlanManagement.Server.UI.Models.NavigationMenu;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Services.Navigation;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Services.Navigation;
 
 public interface IMenuService
 {

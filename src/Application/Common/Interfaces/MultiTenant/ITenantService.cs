@@ -1,6 +1,6 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.DTOs;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.DTOs;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.MultiTenant;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.MultiTenant;
 
 public interface ITenantService
 {

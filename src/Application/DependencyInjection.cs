@@ -1,14 +1,14 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Common.ExceptionHandlers;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.PublishStrategies;
-using SFCTOFC.DailySalesPlanManagementApplication.Pipeline;
-using SFCTOFC.DailySalesPlanManagementApplication.Pipeline.PreProcessors;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.ExceptionHandlers;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.PublishStrategies;
+using SFCTOFC.DailySalesPlanManagement.Application.Pipeline;
+using SFCTOFC.DailySalesPlanManagement.Application.Pipeline.PreProcessors;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication;
+namespace SFCTOFC.DailySalesPlanManagement.Application;
 
 public static class DependencyInjection
 {

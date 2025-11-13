@@ -1,6 +1,6 @@
 ﻿using System.Collections.Concurrent;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services.Identity;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services.Identity;
 
 
 /// <summary>

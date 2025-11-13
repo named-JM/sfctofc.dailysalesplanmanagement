@@ -1,8 +1,8 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Common.Extensions;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Common.Extensions;
 using FluentValidation;
 using FluentValidation.Internal;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services;
 
 public class ValidationService : IValidationService
 {

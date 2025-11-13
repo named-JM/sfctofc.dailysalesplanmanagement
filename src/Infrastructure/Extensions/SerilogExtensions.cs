@@ -1,7 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.Data;
-using SFCTOFC.DailySalesPlanManagementInfrastructure.Configurations;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Constants.Database;
+using SFCTOFC.DailySalesPlanManagement.Infrastructure.Configurations;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Constants.Database;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
@@ -15,7 +15,7 @@ using Serilog.Sinks.PostgreSQL;
 using Serilog.Sinks.PostgreSQL.ColumnWriters;
 using ColumnOptions = Serilog.Sinks.MSSqlServer.ColumnOptions;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Extensions;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Extensions;
 
 public static class SerilogExtensions
 {
@@ -40,8 +40,8 @@ public static class SerilogExtensions
                 .MinimumLevel.Override("ActualLab.Fusion.Extensions.Services.InMemoryKeyValueStore", LogEventLevel.Error)
                 .MinimumLevel.Override("ActualLab.Fusion.Operations.Internal.CompletionProducer", LogEventLevel.Error)
                 .MinimumLevel.Override("ActualLab.Fusion.Internal.ComputedGraphPruner", LogEventLevel.Error)
-                .MinimumLevel.Override("SFCTOFC.DailySalesPlanManagementServer.UI.Services.Fusion.UserSessionTracker", LogEventLevel.Error)
-                .MinimumLevel.Override("SFCTOFC.DailySalesPlanManagementServer.UI.Services.Fusion.OnlineUserTracker", LogEventLevel.Error)
+                .MinimumLevel.Override("SFCTOFC.DailySalesPlanManagement.Server.UI.Services.Fusion.UserSessionTracker", LogEventLevel.Error)
+                .MinimumLevel.Override("SFCTOFC.DailySalesPlanManagement.Server.UI.Services.Fusion.OnlineUserTracker", LogEventLevel.Error)
                 .Enrich.FromLogContext()
                 .Enrich.WithUtcTime()
                 .Enrich.WithUserInfo()

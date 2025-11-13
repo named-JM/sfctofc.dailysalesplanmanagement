@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementDomain.Common.Entities;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Domain.Common.Entities;
 
 public interface IMustHaveTenant
 {

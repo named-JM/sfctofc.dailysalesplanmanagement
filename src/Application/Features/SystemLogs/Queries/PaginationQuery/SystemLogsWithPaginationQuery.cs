@@ -1,11 +1,11 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.SystemLogs.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.SystemLogs.DTOs;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.SystemLogs.Specifications;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.SystemLogs.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.SystemLogs.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.SystemLogs.Specifications;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.SystemLogs.Queries.PaginationQuery;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.SystemLogs.Queries.PaginationQuery;
 
 public class SystemLogsWithPaginationQuery : SystemLogAdvancedFilter, ICacheableRequest<PaginatedData<SystemLogDto>>
 {

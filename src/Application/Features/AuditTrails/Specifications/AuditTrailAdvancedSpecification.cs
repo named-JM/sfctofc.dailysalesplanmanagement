@@ -1,6 +1,6 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Features.AuditTrails.Queries.PaginationQuery;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Features.AuditTrails.Queries.PaginationQuery;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.AuditTrails.Specifications;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.AuditTrails.Specifications;
 #nullable disable warnings
 public class AuditTrailAdvancedSpecification : Specification<AuditTrail>
 {

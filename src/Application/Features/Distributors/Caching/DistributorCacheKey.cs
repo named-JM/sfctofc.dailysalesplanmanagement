@@ -1,5 +1,5 @@
 ﻿
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Distributors.Caching;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Distributors.Caching;
 
 public static class DistributorCacheKey
 {

@@ -1,15 +1,15 @@
 ﻿using System.Security.Claims;
 using System.Text.Json;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Constants.Roles;
-using SFCTOFC.DailySalesPlanManagementServer.UI.Pages.Identity.Login;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Constants.Roles;
+using SFCTOFC.DailySalesPlanManagement.Server.UI.Pages.Identity.Login;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Primitives;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Services;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Services;
 
 /// <summary>
 /// Provides extension methods for configuring Identity-related endpoints in the application.

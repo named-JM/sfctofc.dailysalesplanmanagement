@@ -1,8 +1,8 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.DTOs;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.DTOs;
 using ZiggyCreatures.Caching.Fusion;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services;
 
 public class PicklistService : IPicklistService
 {

@@ -12,23 +12,23 @@ using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Configuration;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Constants.ClaimTypes;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Constants.Database;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Constants.User;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.MultiTenant;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Security;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Fusion;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
-using SFCTOFC.DailySalesPlanManagementInfrastructure.Configurations;
-using SFCTOFC.DailySalesPlanManagementInfrastructure.Persistence.Interceptors;
-using SFCTOFC.DailySalesPlanManagementInfrastructure.Services.Circuits;
-using SFCTOFC.DailySalesPlanManagementInfrastructure.Services.Gemini;
-using SFCTOFC.DailySalesPlanManagementInfrastructure.Services.MultiTenant;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Constants.ClaimTypes;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Constants.Database;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Constants.User;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.MultiTenant;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Security;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Fusion;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Infrastructure.Configurations;
+using SFCTOFC.DailySalesPlanManagement.Infrastructure.Persistence.Interceptors;
+using SFCTOFC.DailySalesPlanManagement.Infrastructure.Services.Circuits;
+using SFCTOFC.DailySalesPlanManagement.Infrastructure.Services.Gemini;
+using SFCTOFC.DailySalesPlanManagement.Infrastructure.Services.MultiTenant;
 using ZiggyCreatures.Caching.Fusion;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure;
 public static class DependencyInjection
 {
     private const string IDENTITY_SETTINGS_KEY = "IdentitySettings";

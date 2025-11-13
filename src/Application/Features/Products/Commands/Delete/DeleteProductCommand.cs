@@ -2,9 +2,9 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Caching;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Commands.Delete;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Commands.Delete;
 
 public class DeleteProductCommand : ICacheInvalidatorRequest<Result>
 {

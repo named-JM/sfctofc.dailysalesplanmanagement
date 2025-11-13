@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.SignalR;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Hubs;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Hubs;
 
 public class ServerHubWrapper : IApplicationHubWrapper
 {

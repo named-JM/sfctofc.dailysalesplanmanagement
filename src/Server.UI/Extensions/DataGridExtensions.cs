@@ -1,7 +1,7 @@
 ﻿using System.Linq.Expressions;
 using System.Reflection;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Extensions;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Extensions;
 
 /// <summary>
 /// Extension methods for applying sort operations to IQueryable data sources in data grids

@@ -1,8 +1,8 @@
 ﻿using System.Globalization;
-using SFCTOFC.DailySalesPlanManagementDomain.Common.Entities;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Domain.Common.Entities;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 
-namespace SFCTOFC.DailySalesPlanManagementDomain.Entities;
+namespace SFCTOFC.DailySalesPlanManagement.Domain.Entities;
 public class OnBoarding : BaseAuditableEntity, IMayHaveTenant, IAuditTrial
 {
     public Guid? RefId { get; set; }

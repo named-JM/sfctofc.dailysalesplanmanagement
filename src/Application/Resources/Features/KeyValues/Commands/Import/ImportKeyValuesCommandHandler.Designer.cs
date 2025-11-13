@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Resources.Features.KeyValues.Commands.Import {
+namespace SFCTOFC.DailySalesPlanManagement.Application.Resources.Features.KeyValues.Commands.Import {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace SFCTOFC.DailySalesPlanManagementApplication.Resources.Features.KeyValu
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SFCTOFC.DailySalesPlanManagementApplication.Resources.Features.KeyValues.Commands.Import" +
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SFCTOFC.DailySalesPlanManagement.Application.Resources.Features.KeyValues.Commands.Import" +
                             ".ImportKeyValuesCommandHandler", typeof(ImportKeyValuesCommandHandler).Assembly);
                     resourceMan = temp;
                 }

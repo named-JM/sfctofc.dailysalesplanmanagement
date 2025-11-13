@@ -1,7 +1,7 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Identity.DTOs;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Identity.DTOs;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Components.Autocompletes;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Components.Autocompletes;
 
 public class PickUserAutocomplete<T> : MudAutocomplete<ApplicationUserDto>
 {

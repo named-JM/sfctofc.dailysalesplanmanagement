@@ -1,6 +1,6 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.DTOs;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.DTOs;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
 
 public interface IPicklistService
 {

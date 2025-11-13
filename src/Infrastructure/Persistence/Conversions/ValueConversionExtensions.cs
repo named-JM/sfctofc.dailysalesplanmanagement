@@ -1,10 +1,10 @@
 ﻿using System.Text.Json;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Serialization;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Serialization;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Persistence.Conversions;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Persistence.Conversions;
 #nullable disable warnings
 public static class ValueConversionExtensions
 {

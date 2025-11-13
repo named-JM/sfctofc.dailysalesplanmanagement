@@ -1,7 +1,7 @@
 ﻿@* 
 headermenu.razor *@
 
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.DTOs
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.DTOs
 
 @inject IStringLocalizer<HeaderMenu> L
 @inject IUserProfileState UserProfileState
@@ -20,15 +20,15 @@ headermenu.razor *@
     <!-- 🔹 Drawer Header Content moved here -->
     <ExternalAppSelector />
 
-    <img src="/img/Icons/sfclogo.png"
+    <img src="/img/rmclogo.png"
             alt="Tenant Logo"
-            style="height:25px; margin-left:8px;" />
+            style="height:25px; margin-left:10px;" />
 
-    <MudText Typo="Typo.h5" Style="margin-left:3px;">
+    <MudText Typo="Typo.h5" Style="margin-left:5px;">
         <span style="color:white; font-size: 1.1rem;">@UserProfile?.TenantName</span>
     </MudText>
 
-    <TenantSelector />
+    @* <TenantSelector /> *@
 
     <MudSpacer/>
     <MudTooltip Arrow="true"

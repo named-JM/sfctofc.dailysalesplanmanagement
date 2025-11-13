@@ -2,11 +2,11 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Products.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Products.DTOs;
 using Microsoft.AspNetCore.Components.Forms;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Commands.AddEdit;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Commands.AddEdit;
 
 public class AddEditProductCommand : ICacheInvalidatorRequest<Result<int>>
 {

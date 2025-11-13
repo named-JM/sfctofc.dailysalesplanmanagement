@@ -15,7 +15,7 @@
 #nullable enable
 #nullable disable warnings
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.Specifications;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.Specifications;
 #nullable disable warnings
 /// <summary>
 /// Specification class for advanced filtering of Contacts.

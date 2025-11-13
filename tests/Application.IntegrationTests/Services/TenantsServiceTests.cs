@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
-using SFCTOFC.DailySalesPlanManagementDomain.Entities;
+using SFCTOFC.DailySalesPlanManagement.Domain.Entities;
 using NUnit.Framework;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.IntegrationTests.Services;
+namespace SFCTOFC.DailySalesPlanManagement.Application.IntegrationTests.Services;
 
 using static Testing;
 

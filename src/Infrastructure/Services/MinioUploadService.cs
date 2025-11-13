@@ -1,10 +1,10 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Common.Extensions;
-using SFCTOFC.DailySalesPlanManagementInfrastructure.Configurations;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Common.Extensions;
+using SFCTOFC.DailySalesPlanManagement.Infrastructure.Configurations;
 using Microsoft.AspNetCore.StaticFiles;
 using Minio;
 using Minio.DataModel.Args;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services;
 public class MinioUploadService : IUploadService
 {
     private readonly IMinioClient _minioClient;

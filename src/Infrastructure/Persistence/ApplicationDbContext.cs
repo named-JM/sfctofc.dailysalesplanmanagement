@@ -5,11 +5,11 @@ using System.Reflection;
 using Microsoft.AspNetCore.DataProtection.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
-using SFCTOFC.DailySalesPlanManagementDomain.Common.Entities;
-using SFCTOFC.DailySalesPlanManagementDomain.Entities;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Domain.Common.Entities;
+using SFCTOFC.DailySalesPlanManagement.Domain.Entities;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Persistence;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Persistence;
 
 #nullable disable
 public class ApplicationDbContext : IdentityDbContext<
@@ -24,6 +24,7 @@ public class ApplicationDbContext : IdentityDbContext<
 
     #region DSPM
     public DbSet<Outlets> Outlets { get; set; }
+    public DbSet<SalesmanTracker> SalesmanTracker { get; set; }
     #endregion
 
     #region DEFAULT ENTITIES

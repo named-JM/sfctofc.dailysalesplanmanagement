@@ -1,9 +1,9 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Pipeline.PreProcessors;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Pipeline.PreProcessors;
 
 public class LoggingPreProcessor<TRequest> : IRequestPreProcessor<TRequest> where TRequest : notnull
 {

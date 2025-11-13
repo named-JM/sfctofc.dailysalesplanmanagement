@@ -1,6 +1,6 @@
 ﻿using System.Security.Claims;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity;
 
 /// <summary>
 /// Interface for loading user context from ClaimsPrincipal.

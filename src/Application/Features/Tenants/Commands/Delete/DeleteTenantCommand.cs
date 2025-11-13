@@ -1,10 +1,10 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.MultiTenant;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.MultiTenant;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.Caching;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.Commands.Delete;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.Commands.Delete;
 
 public class DeleteTenantCommand : ICacheInvalidatorRequest<Result>
 {

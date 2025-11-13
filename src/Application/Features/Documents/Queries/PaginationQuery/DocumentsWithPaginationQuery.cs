@@ -2,11 +2,11 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Documents.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Documents.DTOs;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Documents.Specifications;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Documents.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Documents.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Documents.Specifications;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Documents.Queries.PaginationQuery;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Documents.Queries.PaginationQuery;
 
 public class DocumentsWithPaginationQuery : AdvancedDocumentsFilter, ICacheableRequest<PaginatedData<DocumentDto>>
 {

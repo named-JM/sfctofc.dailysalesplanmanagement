@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Commands.AddEdit;
-using SFCTOFC.DailySalesPlanManagementDomain.Entities;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Commands.AddEdit;
+using SFCTOFC.DailySalesPlanManagement.Domain.Entities;
 using FluentAssertions;
 using FluentValidation;
 using NUnit.Framework;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.IntegrationTests.Products.Commands;
+namespace SFCTOFC.DailySalesPlanManagement.Application.IntegrationTests.Products.Commands;
 
 using static Testing;
 

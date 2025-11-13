@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Resources.Features.DocumentTypes.Queries.Export {
+namespace SFCTOFC.DailySalesPlanManagement.Application.Resources.Features.DocumentTypes.Queries.Export {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace SFCTOFC.DailySalesPlanManagementApplication.Resources.Features.Documen
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SFCTOFC.DailySalesPlanManagementApplication.Resources.Features.DocumentTypes.Queries.Exp" +
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SFCTOFC.DailySalesPlanManagement.Application.Resources.Features.DocumentTypes.Queries.Exp" +
                             "ort.ExportDocumentTypesQueryHandler", typeof(ExportDocumentTypesQueryHandler).Assembly);
                     resourceMan = temp;
                 }

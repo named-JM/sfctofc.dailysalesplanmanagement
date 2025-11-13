@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Identity.Notifications;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Identity.Notifications;
 
 public class UpdateUserProfileCommand : INotification
 {

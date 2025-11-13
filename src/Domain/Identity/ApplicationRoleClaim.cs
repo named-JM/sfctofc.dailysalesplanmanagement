@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementDomain.Identity;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 
 public class ApplicationRoleClaim : IdentityRoleClaim<string>
 {

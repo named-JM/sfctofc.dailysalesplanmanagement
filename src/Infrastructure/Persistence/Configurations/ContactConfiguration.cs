@@ -3,7 +3,7 @@
 
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Persistence.Configurations;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Persistence.Configurations;
 
 #nullable disable
 public class ContactConfiguration : IEntityTypeConfiguration<Contact>

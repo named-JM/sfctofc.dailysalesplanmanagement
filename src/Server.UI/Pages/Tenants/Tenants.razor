@@ -1,9 +1,9 @@
 ﻿@page "/system/tenants"
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.DTOs
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.Queries.Pagination
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.Caching
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.Commands.AddEdit
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.Commands.Delete
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.DTOs
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.Queries.Pagination
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.Caching
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.Commands.AddEdit
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.Commands.Delete
 
 @attribute [Authorize(Policy = Permissions.Tenants.View)]
 @inject IStringLocalizer<Tenants> L

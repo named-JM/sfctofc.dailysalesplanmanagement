@@ -1,12 +1,12 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.LoginAudits.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.LoginAudits.DTOs;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.LoginAudits.Specifications;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.LoginAudits.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.LoginAudits.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.LoginAudits.Specifications;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.LoginAudits.Queries.PaginationQuery;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.LoginAudits.Queries.PaginationQuery;
 
 public class LoginAuditsWithPaginationQuery : LoginAuditAdvancedFilter, ICacheableRequest<PaginatedData<LoginAuditDto>>
 {

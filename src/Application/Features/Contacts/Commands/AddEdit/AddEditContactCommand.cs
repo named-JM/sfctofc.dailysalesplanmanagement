@@ -3,9 +3,9 @@
 #nullable disable warnings
 
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.DTOs;
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.Commands.AddEdit;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.DTOs;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.Commands.AddEdit;
 
 public class AddEditContactCommand: ICacheInvalidatorRequest<Result<int>>
 {

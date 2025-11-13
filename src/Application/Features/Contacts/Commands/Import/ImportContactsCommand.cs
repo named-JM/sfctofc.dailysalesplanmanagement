@@ -2,10 +2,10 @@
 #nullable enable
 #nullable disable warnings
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.DTOs;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.Caching;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.Commands.Import;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.Commands.Import;
 
     public class ImportContactsCommand: ICacheInvalidatorRequest<Result<int>>
     {

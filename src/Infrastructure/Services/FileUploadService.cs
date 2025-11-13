@@ -1,9 +1,9 @@
 ﻿    // Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Extensions;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Extensions;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services;
 
 /// <summary>
 /// Service for uploading files.

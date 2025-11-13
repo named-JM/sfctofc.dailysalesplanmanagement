@@ -1,7 +1,7 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-namespace SFCTOFC.DailySalesPlanManagementDomain.Common.Entities;
+namespace SFCTOFC.DailySalesPlanManagement.Domain.Common.Entities;
 
 public interface ISoftDelete
 {

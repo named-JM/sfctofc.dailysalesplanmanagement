@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Http.Connections;
 using Microsoft.AspNetCore.SignalR.Client;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Hubs;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Hubs;
 
 public sealed class HubClient : IAsyncDisposable
 {

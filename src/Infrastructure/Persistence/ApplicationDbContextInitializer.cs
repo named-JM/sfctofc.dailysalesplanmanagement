@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Reflection;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Constants.ClaimTypes;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Constants.Roles;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Constants.User;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Security;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Constants.ClaimTypes;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Constants.Roles;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Constants.User;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Security;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Persistence;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Persistence;
 
 public class ApplicationDbContextInitializer
 {

@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementServer.UI.Services.JsInterop;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Services.JsInterop;
 
 public static class JSInteropConstants
 {

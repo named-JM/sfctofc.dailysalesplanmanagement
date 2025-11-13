@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Pipeline.PreProcessors;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Pipeline.PreProcessors;
 
 public sealed class ValidationPreProcessor<TRequest> : IRequestPreProcessor<TRequest> where TRequest : notnull
 {

@@ -1,9 +1,9 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementDomain.Common.Exceptions;
+using SFCTOFC.DailySalesPlanManagement.Domain.Common.Exceptions;
 
-namespace SFCTOFC.DailySalesPlanManagementDomain.ValueObjects;
+namespace SFCTOFC.DailySalesPlanManagement.Domain.ValueObjects;
 #nullable disable
 public class Colour : ValueObject
 {

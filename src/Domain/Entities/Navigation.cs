@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SFCTOFC.DailySalesPlanManagementDomain.Entities;
+namespace SFCTOFC.DailySalesPlanManagement.Domain.Entities;
 public class MenuSection
 {
     public int Id { get; set; }

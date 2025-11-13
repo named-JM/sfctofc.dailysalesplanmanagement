@@ -5,7 +5,7 @@ using System.Data;
 using ClosedXML.Excel;
 using DocumentFormat.OpenXml.VariantTypes;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services;
 
 public class ExcelService : IExcelService
 {

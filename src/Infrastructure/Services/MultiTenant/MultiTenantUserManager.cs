@@ -1,8 +1,8 @@
-﻿using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+﻿using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services.MultiTenant;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services.MultiTenant;
 
 /// <summary>
 /// Custom user manager implementation for multi-tenant application.

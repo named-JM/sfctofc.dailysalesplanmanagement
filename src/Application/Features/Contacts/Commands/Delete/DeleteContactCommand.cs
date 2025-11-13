@@ -2,9 +2,9 @@
 #nullable enable
 #nullable disable warnings
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.Caching;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.Commands.Delete;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.Commands.Delete;
 
 public class DeleteContactCommand:  ICacheInvalidatorRequest<Result>
 {

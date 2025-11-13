@@ -2,13 +2,13 @@
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.MultiTenant;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
-using SFCTOFC.DailySalesPlanManagementInfrastructure;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Extensions;
-using SFCTOFC.DailySalesPlanManagementInfrastructure.Persistence;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.MultiTenant;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Infrastructure;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Extensions;
+using SFCTOFC.DailySalesPlanManagement.Infrastructure.Persistence;
 using MediatR;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -20,7 +20,7 @@ using NUnit.Framework;
 using Respawn;
 using Respawn.Graph;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.IntegrationTests;
+namespace SFCTOFC.DailySalesPlanManagement.Application.IntegrationTests;
 
 [SetUpFixture]
 public class Testing

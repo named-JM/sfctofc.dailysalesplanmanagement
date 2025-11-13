@@ -1,8 +1,8 @@
 ﻿using System.Collections.Immutable;
 using ActualLab.Fusion;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Fusion;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Fusion;
 
 /// <summary>
 /// Tracks user sessions for different page components.

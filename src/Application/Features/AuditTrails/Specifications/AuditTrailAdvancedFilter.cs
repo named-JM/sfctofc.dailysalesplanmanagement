@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Features.AuditTrails.Specifications;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Features.AuditTrails.Specifications;
 
 public enum AuditTrailListView
 {

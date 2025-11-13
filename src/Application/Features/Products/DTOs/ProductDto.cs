@@ -1,5 +1,5 @@
 ﻿
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Products.DTOs;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Products.DTOs;
 
 [Description("Products")]
 public class ProductDto

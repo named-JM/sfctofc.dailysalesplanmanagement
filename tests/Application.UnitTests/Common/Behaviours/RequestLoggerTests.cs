@@ -1,13 +1,13 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Commands.AddEdit;
-using SFCTOFC.DailySalesPlanManagementApplication.Pipeline.PreProcessors;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Commands.AddEdit;
+using SFCTOFC.DailySalesPlanManagement.Application.Pipeline.PreProcessors;
 using Microsoft.Extensions.Logging;
 using Moq;
 using NUnit.Framework;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.UnitTests.Common.Behaviours;
+namespace SFCTOFC.DailySalesPlanManagement.Application.UnitTests.Common.Behaviours;
 
 public class RequestLoggerTests
 {

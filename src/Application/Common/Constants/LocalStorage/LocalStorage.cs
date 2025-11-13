@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Constants.LocalStorage;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Constants.LocalStorage;
 
 public static class LocalStorage
 {

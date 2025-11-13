@@ -5,9 +5,9 @@
 // Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementDomain.Common.Entities;
+using SFCTOFC.DailySalesPlanManagement.Domain.Common.Entities;
 
-namespace SFCTOFC.DailySalesPlanManagementDomain.Common.Events;
+namespace SFCTOFC.DailySalesPlanManagement.Domain.Common.Events;
 
 public class DeletedEvent<T> : DomainEvent where T : IEntity
 {

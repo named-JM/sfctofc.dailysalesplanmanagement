@@ -1,12 +1,12 @@
 ﻿@page "/account/login"
 
 @using Microsoft.AspNetCore.Authentication
-@using SFCTOFC.DailySalesPlanManagementDomain.Identity
-@using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.Identity.Notifications.SendFactorCode
+@using SFCTOFC.DailySalesPlanManagement.Domain.Identity
+@using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.Identity.Notifications.SendFactorCode
 @using System.ComponentModel.DataAnnotations
-@using SFCTOFC.DailySalesPlanManagementServer.UI.Pages.Identity.Register
-@using SFCTOFC.DailySalesPlanManagementServer.UI.Pages.Identity.Forgot
+@using SFCTOFC.DailySalesPlanManagement.Server.UI.Pages.Identity.Register
+@using SFCTOFC.DailySalesPlanManagement.Server.UI.Pages.Identity.Forgot
 @inherits OwningComponentBase
 @inject ILogger<Login> Logger
 @inject IStringLocalizer<Login> L
@@ -21,7 +21,7 @@
             <DataAnnotationsValidator />
             <MudGrid>
                 <MudItem xs="12" sm="12" Class="d-flex align-center justify-start gap-5 mb-2">
-                    <img src="/img/logo1.png" alt="Logo" style="height:40px; width:auto;" />
+                    <img src="/img/rmclogo.png" alt="Logo" style="height:40px; width:auto;" />
                 </MudItem>
             </MudGrid>
             <MudDivider class="mb-6" />
@@ -72,7 +72,7 @@
 
     <!-- Footer -->
     <div class="text-center mt-6" style="font-size:0.6rem; color:gray;">
-        © 2024 Corporate Solutions. All Rights Reserved. <br />
+        © 2025 Daily Sales Plan Management. All Rights Reserved. <br />
         Development By: ICT Department
     </div>
 </div>

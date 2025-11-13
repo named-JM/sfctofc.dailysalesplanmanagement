@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Extensions;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Extensions;
 
 /// <summary>
 /// Provides extension methods for <see cref="ISpecificationBuilder{T}"/> to simplify query building.

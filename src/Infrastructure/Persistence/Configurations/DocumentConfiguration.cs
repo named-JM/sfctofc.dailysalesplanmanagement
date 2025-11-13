@@ -4,7 +4,7 @@
 
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Persistence.Configurations;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Persistence.Configurations;
 
 public class DocumentConfiguration : IEntityTypeConfiguration<Document>
 {

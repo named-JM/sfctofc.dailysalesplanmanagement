@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity;
 
 /// <summary>
 /// Represents the current user context with essential user information.

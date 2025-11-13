@@ -13,7 +13,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SFCTOFC.DailySalesPlanManagementDomain.Events;
+namespace SFCTOFC.DailySalesPlanManagement.Domain.Events;
 
 
     public class ContactUpdatedEvent : DomainEvent

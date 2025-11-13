@@ -1,7 +1,7 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Constants.User;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Constants.User;
 
 public abstract class UserName
 {

@@ -1,7 +1,7 @@
 ﻿using ActualLab.Fusion;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Fusion;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Fusion;
 
 public interface IUserSessionTracker: IComputeService
 {

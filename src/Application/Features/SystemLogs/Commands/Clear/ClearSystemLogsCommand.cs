@@ -2,9 +2,9 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.SystemLogs.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.SystemLogs.Caching;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.SystemLogs.Commands.Clear;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.SystemLogs.Commands.Clear;
 
 public class ClearSystemLogsCommand : ICacheInvalidatorRequest<Result>
 {

@@ -10,7 +10,7 @@
 #nullable enable
 #nullable disable warnings
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.Commands.Delete;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.Commands.Delete;
 
 public class DeleteContactCommandValidator : AbstractValidator<DeleteContactCommand>
 {

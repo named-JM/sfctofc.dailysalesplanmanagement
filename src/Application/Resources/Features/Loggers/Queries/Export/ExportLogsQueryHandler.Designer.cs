@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Resources.Features.Loggers.Queries.Export {
+namespace SFCTOFC.DailySalesPlanManagement.Application.Resources.Features.Loggers.Queries.Export {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace SFCTOFC.DailySalesPlanManagementApplication.Resources.Features.Loggers
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SFCTOFC.DailySalesPlanManagementApplication.Resources.Features.Loggers.Queries.Export.Ex" +
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SFCTOFC.DailySalesPlanManagement.Application.Resources.Features.Loggers.Queries.Export.Ex" +
                             "portLogsQueryHandler", typeof(ExportLogsQueryHandler).Assembly);
                     resourceMan = temp;
                 }

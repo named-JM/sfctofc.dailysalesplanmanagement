@@ -1,7 +1,7 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Documents.Caching;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Documents.Caching;
 
 public static class DocumentCacheKey
 {

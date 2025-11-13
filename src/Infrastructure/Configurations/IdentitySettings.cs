@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Configurations;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Configurations;
 
 public class IdentitySettings : IIdentitySettings
 {

@@ -1,7 +1,7 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Common.FusionCache;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Common.FusionCache;
 using Microsoft.Extensions.Hosting;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Extensions;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Extensions;
 public static class HostExtensions
 {
     public static void InitializeCacheFactory(this IHost host)

@@ -1,10 +1,10 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.AuditTrails.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.AuditTrails.DTOs;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.AuditTrails.Queries.Export;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.AuditTrails.Queries.Export;
 
 public class ExportAuditTrailsQuery : IRequest<byte[]>
 {

@@ -1,11 +1,11 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.DTOs;
 
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Queries.GetAll;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Queries.GetAll;
 
 public class GetAllPicklistSetsQuery : ICacheableRequest<IEnumerable<PicklistSetDto>>
 {

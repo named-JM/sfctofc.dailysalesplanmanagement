@@ -1,6 +1,6 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Features.SystemLogs.Queries.PaginationQuery;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Features.SystemLogs.Queries.PaginationQuery;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.SystemLogs.Specifications;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.SystemLogs.Specifications;
 #nullable disable warnings
 public class SystemLogAdvancedSpecification : Specification<SystemLog>
 {

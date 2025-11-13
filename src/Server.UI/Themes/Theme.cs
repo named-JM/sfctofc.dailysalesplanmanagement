@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementServer.UI.Themes;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Themes;
 
 public static class Theme
 {

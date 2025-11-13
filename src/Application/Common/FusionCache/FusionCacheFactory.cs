@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using ZiggyCreatures.Caching.Fusion;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Common.FusionCache;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Common.FusionCache;
 public static class FusionCacheFactory
 {
     private static IServiceProvider? _serviceProvider;

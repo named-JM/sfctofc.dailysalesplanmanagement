@@ -1,9 +1,9 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Identity.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Identity.DTOs;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Documents.DTOs;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Documents.DTOs;
 
 [Description("Documents")]
 public class DocumentDto

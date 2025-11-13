@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Extensions;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Extensions;
 
 public static class DescriptionAttributeExtensions
 {

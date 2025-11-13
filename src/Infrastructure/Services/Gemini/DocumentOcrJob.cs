@@ -2,10 +2,10 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 
 using System.Diagnostics;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Documents.Caching;
-using SFCTOFC.DailySalesPlanManagementDomain.Common.Enums;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Documents.Caching;
+using SFCTOFC.DailySalesPlanManagement.Domain.Common.Enums;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services.Gemini;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services.Gemini;
 
 public class DocumentOcrJob : IDocumentOcrJob
 {

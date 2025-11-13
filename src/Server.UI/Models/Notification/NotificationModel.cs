@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementServer.UI.Models.Notification;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Models.Notification;
 
 public class NotificationModel
 {

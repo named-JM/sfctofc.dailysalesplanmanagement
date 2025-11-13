@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Models.NavigationMenu;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Models.NavigationMenu;
 
 public enum PageStatus
 {

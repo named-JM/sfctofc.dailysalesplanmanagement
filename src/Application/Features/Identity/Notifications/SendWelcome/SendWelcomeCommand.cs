@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Identity.Notifications.SendWelcome;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Identity.Notifications.SendWelcome;
 
 public record SendWelcomeNotification(string LoginUrl, string Email, string UserName) : INotification;
 

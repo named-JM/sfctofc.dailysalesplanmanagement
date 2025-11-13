@@ -3,7 +3,7 @@
 
 using ZiggyCreatures.Caching.Fusion;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Pipeline;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Pipeline;
 
 public class CacheInvalidationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     where TRequest : ICacheInvalidatorRequest<TResponse>

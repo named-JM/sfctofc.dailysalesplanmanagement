@@ -1,8 +1,8 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Identity.DTOs;
-using SFCTOFC.DailySalesPlanManagementInfrastructure.Services.Identity;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Identity.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Infrastructure.Services.Identity;
 
-namespace SFCTOFC.DailySalesPlanManagementServer.UI.Components.Autocompletes;
+namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Components.Autocompletes;
 #nullable disable warnings
 public class PickSuperiorIdAutocomplete<T> : MudAutocomplete<ApplicationUserDto>
 {

@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Identity;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Identity;
 
 /// <summary>
 /// Interface for managing user profile state with immutable snapshots and precise notifications.

@@ -1,6 +1,6 @@
-﻿using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+﻿using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 
-namespace SFCTOFC.DailySalesPlanManagementDomain.Events;
+namespace SFCTOFC.DailySalesPlanManagement.Domain.Events;
 
     public class LoginAuditCreatedEvent : DomainEvent
     {

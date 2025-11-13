@@ -5,11 +5,11 @@ using System.Reflection;
 using FluentEmail.Core;
 using FluentEmail.Core.Models;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services;
 
 public class MailService : IMailService
 {
-    private const string TemplatePath = "SFCTOFC.DailySalesPlanManagementServer.UI.Resources.EmailTemplates.{0}.cshtml";
+    private const string TemplatePath = "SFCTOFC.DailySalesPlanManagement.Server.UI.Resources.EmailTemplates.{0}.cshtml";
     private readonly IApplicationSettings _appConfig;
     private readonly IFluentEmail _fluentEmail;
     private readonly ILogger<MailService> _logger;

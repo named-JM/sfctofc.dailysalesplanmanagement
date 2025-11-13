@@ -1,11 +1,11 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementDomain.Common.Entities;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Domain.Common.Entities;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
-namespace SFCTOFC.DailySalesPlanManagementDomain.Entities;
+namespace SFCTOFC.DailySalesPlanManagement.Domain.Entities;
 
 public class AuditTrail : IEntity<int>
 {

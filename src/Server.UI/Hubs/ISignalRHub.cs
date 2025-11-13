@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementServer.UI.Hubs;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Server.UI.Hubs;
 
 public interface ISignalRHub
 {

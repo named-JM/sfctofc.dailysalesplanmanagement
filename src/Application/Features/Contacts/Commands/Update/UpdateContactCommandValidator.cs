@@ -10,7 +10,7 @@
 #nullable enable
 #nullable disable warnings
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.Commands.Update;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.Commands.Update;
 
 public class UpdateContactCommandValidator : AbstractValidator<UpdateContactCommand>
 {

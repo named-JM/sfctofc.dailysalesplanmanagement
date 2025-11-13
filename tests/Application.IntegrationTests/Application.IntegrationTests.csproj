@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
-        <RootNamespace>SFCTOFC.DailySalesPlanManagementApplication.IntegrationTests</RootNamespace>
-        <AssemblyName>SFCTOFC.DailySalesPlanManagementApplication.IntegrationTests</AssemblyName>
+        <RootNamespace>SFCTOFC.DailySalesPlanManagement.Application.IntegrationTests</RootNamespace>
+        <AssemblyName>SFCTOFC.DailySalesPlanManagement.Application.IntegrationTests</AssemblyName>
 
         <IsPackable>false</IsPackable>
 

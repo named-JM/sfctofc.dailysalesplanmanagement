@@ -5,7 +5,7 @@
 using Hangfire;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Documents.EventHandlers;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Documents.EventHandlers;
 
 public class DocumentCreatedEventHandler : INotificationHandler<CreatedEvent<Document>>
 {

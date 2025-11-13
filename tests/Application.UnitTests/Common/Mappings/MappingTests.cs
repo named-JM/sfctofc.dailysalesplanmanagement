@@ -2,20 +2,20 @@
 using System.Reflection;
 using System.Runtime.Serialization;
 using AutoMapper;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.AuditTrails.DTOs;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Contacts.DTOs;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Documents.DTOs;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Identity.DTOs;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.DTOs;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Products.DTOs;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.SystemLogs.DTOs;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.DTOs;
-using SFCTOFC.DailySalesPlanManagementDomain.Entities;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.AuditTrails.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Contacts.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Documents.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Identity.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Products.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.SystemLogs.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Domain.Entities;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 using NUnit.Framework;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.UnitTests.Common.Mappings;
+namespace SFCTOFC.DailySalesPlanManagement.Application.UnitTests.Common.Mappings;
 public class MappingTests
 {
     private readonly IConfigurationProvider _configuration;

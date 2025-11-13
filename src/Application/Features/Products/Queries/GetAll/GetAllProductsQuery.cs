@@ -1,8 +1,8 @@
 ﻿
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Products.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Products.DTOs;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Queries.GetAll;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Queries.GetAll;
 
 public class GetAllProductsQuery : ICacheableRequest<IEnumerable<ProductDto>>
 {

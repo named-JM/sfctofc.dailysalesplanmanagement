@@ -2,11 +2,11 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 
 using System.Text.Json;
-using SFCTOFC.DailySalesPlanManagementApplication.Common.Interfaces.Serialization;
+using SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces.Serialization;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Persistence.Configurations;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Persistence.Configurations;
 #nullable disable
 public class ProductConfiguration : IEntityTypeConfiguration<Product>
 {

@@ -1,9 +1,9 @@
 ﻿
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Caching;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Products.DTOs;
-using SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Specifications;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Caching;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Products.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Specifications;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Products.Queries.Pagination;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Products.Queries.Pagination;
 
 public class ProductsWithPaginationQuery : ProductAdvancedFilter, ICacheableRequest<PaginatedData<ProductDto>>
 {

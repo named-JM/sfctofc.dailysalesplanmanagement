@@ -1,13 +1,13 @@
 ﻿@page "/system/picklistset"
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.DTOs
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Queries.Export
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Queries.PaginationQuery
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Caching
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Commands.AddEdit
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Commands.Delete
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Commands.Import
-@using SFCTOFC.DailySalesPlanManagementApplication.Features.PicklistSets.Specifications
-@using SFCTOFC.DailySalesPlanManagementServer.UI.Pages.PicklistSets.Components
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.DTOs
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Queries.Export
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Queries.PaginationQuery
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Caching
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Commands.AddEdit
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Commands.Delete
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Commands.Import
+@using SFCTOFC.DailySalesPlanManagement.Application.Features.PicklistSets.Specifications
+@using SFCTOFC.DailySalesPlanManagement.Server.UI.Pages.PicklistSets.Components
 
 @attribute [Authorize(Policy = Permissions.PicklistSets.View)]
 @inject IStringLocalizer<PicklistSets> L

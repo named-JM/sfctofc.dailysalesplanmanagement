@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
-        <RootNamespace>SFCTOFC.DailySalesPlanManagementInfrastructure</RootNamespace>
-        <AssemblyName>SFCTOFC.DailySalesPlanManagementInfrastructure</AssemblyName>
+        <RootNamespace>SFCTOFC.DailySalesPlanManagement.Infrastructure</RootNamespace>
+        <AssemblyName>SFCTOFC.DailySalesPlanManagement.Infrastructure</AssemblyName>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>default</LangVersion>

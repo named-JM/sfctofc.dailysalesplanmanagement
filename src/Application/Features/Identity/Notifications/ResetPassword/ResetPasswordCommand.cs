@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Identity.Notifications.ResetPassword;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Identity.Notifications.ResetPassword;
 
 public record ResetPasswordNotification(string RequestUrl, string Email, string UserName) : INotification;
 

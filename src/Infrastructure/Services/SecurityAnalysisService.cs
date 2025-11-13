@@ -1,13 +1,13 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementApplication.Features.LoginAudits.Caching;
-using SFCTOFC.DailySalesPlanManagementDomain.Enums;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+using SFCTOFC.DailySalesPlanManagement.Application.Features.LoginAudits.Caching;
+using SFCTOFC.DailySalesPlanManagement.Domain.Enums;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 using System.Collections.Concurrent;
 using ZiggyCreatures.Caching.Fusion;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services;
 
 public class SecurityAnalysisService : ISecurityAnalysisService
 {

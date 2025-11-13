@@ -1,7 +1,7 @@
-﻿using SFCTOFC.DailySalesPlanManagementApplication.Features.Tenants.DTOs;
-using SFCTOFC.DailySalesPlanManagementDomain.Identity;
+﻿using SFCTOFC.DailySalesPlanManagement.Application.Features.Tenants.DTOs;
+using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Identity.DTOs;
+namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Identity.DTOs;
 
 [Description("Users")]
 public class ApplicationUserDto

@@ -1,4 +1,4 @@
-﻿@using SFCTOFC.DailySalesPlanManagementApplication.Common.Security
+﻿@using SFCTOFC.DailySalesPlanManagement.Application.Common.Security
 
 @inject ISnackbar Snackbar
 @inject NavigationManager Navigation
@@ -54,7 +54,7 @@ Variant="@DrawerVariant.Temporary">
                 </MudText>
             </MudStack>
             <MudDivider Class="my-2" />
-            <MudGrid GutterSize="2">
+            @* <MudGrid GutterSize="2">
                 <MudItem xs="12" sm="4">
                     <div class="menu-card">
                         <MudStack AlignItems="AlignItems.Center" Spacing="2">
@@ -109,7 +109,7 @@ Variant="@DrawerVariant.Temporary">
                         </MudStack>
                     </div>
                 </MudItem>
-            </MudGrid>
+            </MudGrid> *@
         </MudCardContent>
     </div>
 </MudDrawer>

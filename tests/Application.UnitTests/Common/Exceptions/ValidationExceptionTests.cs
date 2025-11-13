@@ -5,7 +5,7 @@ using FluentValidation;
 using FluentValidation.Results;
 using NUnit.Framework;
 
-namespace SFCTOFC.DailySalesPlanManagementApplication.UnitTests.Common.Exceptions;
+namespace SFCTOFC.DailySalesPlanManagement.Application.UnitTests.Common.Exceptions;
 
 public class ValidationExceptionTests
 {

@@ -1,10 +1,10 @@
 ﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
-using SFCTOFC.DailySalesPlanManagementInfrastructure.Persistence.Conversions;
+using SFCTOFC.DailySalesPlanManagement.Infrastructure.Persistence.Conversions;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Persistence.Configurations;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Persistence.Configurations;
 
 #nullable disable
 public class AuditTrailConfiguration : IEntityTypeConfiguration<AuditTrail>

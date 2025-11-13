@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Features.Documents.Specifications;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Features.Documents.Specifications;
 #nullable disable warnings
 public class AdvancedDocumentsSpecification : Specification<Document>
 {

@@ -1,4 +1,4 @@
-﻿namespace SFCTOFC.DailySalesPlanManagementApplication.Common.Security;
+﻿namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Security;
 
 /// <summary>
 /// Contains information about a permission module.

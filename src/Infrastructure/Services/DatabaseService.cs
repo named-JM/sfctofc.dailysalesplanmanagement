@@ -6,7 +6,7 @@ using System.Data;
 using Microsoft.Extensions.Configuration;
 using SFCTOFC.Core.DataAccess;
 
-namespace SFCTOFC.DailySalesPlanManagementInfrastructure.Services;
+namespace SFCTOFC.DailySalesPlanManagement.Infrastructure.Services;
 public class DatabaseService : IDatabaseService
 {
     private readonly string _connectionString;

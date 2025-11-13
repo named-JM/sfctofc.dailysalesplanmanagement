@@ -1,7 +1,7 @@
-﻿using SFCTOFC.DailySalesPlanManagementDomain.Common.Entities;
-using SFCTOFC.DailySalesPlanManagementDomain.Enums;
+﻿using SFCTOFC.DailySalesPlanManagement.Domain.Common.Entities;
+using SFCTOFC.DailySalesPlanManagement.Domain.Enums;
 
-namespace SFCTOFC.DailySalesPlanManagementDomain.Identity;
+namespace SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 public class UserLoginRiskSummary : BaseAuditableEntity
 {
     public string UserId { get; set; }= string.Empty;
