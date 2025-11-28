@@ -1,5 +1,4 @@
-﻿// Licensed to the .NET Foundation under one or more agreements.
-// The .NET Foundation licenses this file to you under the MIT license.
+﻿
 
 using System.Reflection;
 using Microsoft.AspNetCore.DataProtection.EntityFrameworkCore;
@@ -32,8 +31,14 @@ public class ApplicationDbContext : IdentityDbContext<
     #endregion
 
     #region DSPM
+
     public DbSet<Outlets> Outlets { get; set; }
     public DbSet<SalesmanTracker> SalesmanTracker { get; set; }
+    public DbSet<PurchaseOrder> PurchaseOrder { get; set; }
+    public DbSet<PurchaseOrderDetails> PurchaseOrderDetails { get; set; }
+    public DbSet<SalesOrder> SalesOrder { get; set; }
+    public DbSet<SalesOrderDetails> SalesOrderDetails { get; set; }
+
     #endregion
 
     #region DEFAULT ENTITIES
