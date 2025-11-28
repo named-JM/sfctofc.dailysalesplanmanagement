@@ -22,6 +22,15 @@ public class ApplicationDbContext : IdentityDbContext<
     {
     }
 
+    #region MOBILE DSPM
+    public DbSet<MBLUsers> MBLUser { get; set; }
+    public DbSet<MBLSalesmanDailyPlans> MBLSalesmanDailyPlan{ get; set; }
+    public DbSet<MBLDistributorOutlet> MBLDistributorOutlet{ get; set; }
+    public DbSet<MBLOutletSalesOrder> MBLOutletSalesOrder { get; set; }
+    public DbSet<MBLProducts> MBLProduct { get; set; }
+    public DbSet<MBLOutletTasks> MBLOutletTask{ get; set; }
+    #endregion
+
     #region DSPM
     public DbSet<Outlets> Outlets { get; set; }
     public DbSet<SalesmanTracker> SalesmanTracker { get; set; }

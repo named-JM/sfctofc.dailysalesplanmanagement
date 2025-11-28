@@ -3,11 +3,26 @@ using SFCTOFC.DailySalesPlanManagement.Domain.Entities;
 using SFCTOFC.DailySalesPlanManagement.Domain.Identity;
 using Microsoft.AspNetCore.DataProtection.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
+using ActualLab.Time.Internal;
 
 namespace SFCTOFC.DailySalesPlanManagement.Application.Common.Interfaces;
 
 public interface IApplicationDbContext: IAsyncDisposable
 {
+
+    //Mj - jo it kung sila din daw 
+
+    #region Mobile DSPM
+
+    DbSet<MBLUsers> MBLUser { get; set; }
+    DbSet<MBLSalesmanDailyPlans> MBLSalesmanDailyPlan { get; set; }
+    DbSet<MBLDistributorOutlet> MBLDistributorOutlet { get; set; }
+    DbSet<MBLOutletSalesOrder> MBLOutletSalesOrder { get; set; }
+    DbSet<MBLProducts> MBLProduct { get; set; }
+    DbSet<MBLOutletTasks> MBLOutletTask { get; set; }
+    #endregion
+
+
     #region DSPM
     DbSet<Outlets> Outlets { get; set; }
     DbSet<SalesmanTracker> SalesmanTracker { get; set; }
